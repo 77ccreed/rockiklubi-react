@@ -10,7 +10,7 @@
   color: #F1F7EE;
   font-family: Georgia,
     serif;
-  animation: textColorAnimation 40s infinite 0s linear;
+  animation: textColorAnimation 30s infinite 0s linear;
 }
 
 .Header-text2 {
@@ -20,42 +20,36 @@
 
 .Header-text3 {
   animation: yourAnimation 17s infinite 0s ease;
-  font-family: "Comic Sans MS",
-    cursive,
-    sans-serif;
+
 }
 
 .Header-text4 {
   animation: yourAnimation 35s infinite 0s ease;
   color: #ED1C25;
-  text-align: left;
+  /*text-align: left;
   margin-left: 25px;
   font-family: "Times New Roman",
     Times,
-    serif;
+    serif;*/
 }
 
 .Header-text5 {
   animation: yourAnimation 47s infinite 0s ease;
-  text-align: left;
-  margin-left: 40px;
+ /* text-align: left;
+  margin-left: 40px;*/
 }
 
 .Header-text6 {
   animation: yourAnimation 27s infinite 0s ease;
-  text-align: right;
+  color: #ED1C25;
+  /*text-align: right;
   margin-right: 80px;
   color: #ED1C25;
   font-family: "Times New Roman",
     Times,
-    serif;
+    serif;*/
 }
 
-.Header-text7 {
-  animation: yourAnimation 32s infinite 0s ease;
-  text-align: left;
-  margin-left: 44px;
-}
 
 @keyframes textColorAnimation {
   0% {
