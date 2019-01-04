@@ -1,0 +1,90 @@
+.App-header {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 74%, 0 94%);
+  clip-path: polygon(0 0, 100% 0, 100% 74%, 0 94%);
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #F1F7EE;
+  font-family: Georgia,
+    serif;
+  animation: textColorAnimation 40s infinite 0s linear;
+}
+
+.Header-text2 {
+  animation: yourAnimation 20s infinite 0s ease;
+  color: #ED1C25;
+}
+
+.Header-text3 {
+  animation: yourAnimation 17s infinite 0s ease;
+  font-family: "Comic Sans MS",
+    cursive,
+    sans-serif;
+}
+
+.Header-text4 {
+  animation: yourAnimation 35s infinite 0s ease;
+  color: #ED1C25;
+  text-align: left;
+  margin-left: 25px;
+  font-family: "Times New Roman",
+    Times,
+    serif;
+}
+
+.Header-text5 {
+  animation: yourAnimation 47s infinite 0s ease;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.Header-text6 {
+  animation: yourAnimation 27s infinite 0s ease;
+  text-align: right;
+  margin-right: 80px;
+  color: #ED1C25;
+  font-family: "Times New Roman",
+    Times,
+    serif;
+}
+
+.Header-text7 {
+  animation: yourAnimation 32s infinite 0s ease;
+  text-align: left;
+  margin-left: 44px;
+}
+
+@keyframes textColorAnimation {
+  0% {
+    color: #F1F7EE;
+  }
+
+  50% {
+    transform: rotate(xx);
+    color: #000;
+  }
+
+  100% {
+    transform: rotate(xx);
+    color: #F1F7EE;
+  }
+}
+
+@keyframes yourAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotate(xx);
+    opacity: 0;
+  }
+}
+
