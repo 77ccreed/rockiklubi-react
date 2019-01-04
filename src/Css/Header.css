@@ -6,11 +6,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 8vmin);
   color: #F1F7EE;
   font-family: Georgia,
     serif;
-  animation: textColorAnimation 30s infinite 0s linear;
+  animation: textColorAnimation 40s infinite 0s linear;
 }
 
 .Header-text2 {
@@ -19,7 +19,10 @@
 }
 
 .Header-text3 {
-  animation: yourAnimation 17s infinite 0s ease;
+  animation: yourAnimation 37s infinite 0s ease;
+ font-family: Arial,
+ Helvetica,
+ sans-serif;
 
 }
 
@@ -44,10 +47,10 @@
   color: #ED1C25;
   /*text-align: right;
   margin-right: 80px;
-  color: #ED1C25;
+  color: #ED1C25;*/
   font-family: "Times New Roman",
     Times,
-    serif;*/
+    serif;
 }
 
 
@@ -81,4 +84,3 @@
     opacity: 0;
   }
 }
-
