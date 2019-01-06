@@ -20,59 +20,24 @@ text-shadow: rgb(241, 247, 238) 1px 0 5px;
 
 .Header-text2 {
   animation: yourAnimation 20s infinite 0s ease;
-  color: #ED1C25;
-   
+  color: #ED1C25;   
 }
 
-.Header-text3 {
-  animation: yourAnimation 37s infinite 0s ease;
- font-family: Arial,
- Helvetica,
- sans-serif;
-
-}
-
-.Header-text4 {
-  animation: yourAnimation 35s infinite 0s ease;
-  color: #ED1C25;
-  /*text-align: left;
-  margin-left: 25px;
-  font-family: "Times New Roman",
-    Times,
-    serif;*/
-}
-
-.Header-text5 {
-  animation: yourAnimation 47s infinite 0s ease;
- /* text-align: left;
-  margin-left: 40px;*/
-}
-
-.Header-text6 {
-  animation: yourAnimation 27s infinite 0s ease;
-  color: #ED1C25;
-  /*text-align: right;
-  margin-right: 80px;
-  color: #ED1C25;*/
-  font-family: "Times New Roman",
-    Times,
-    serif;
-}
 
 
 @keyframes textColorAnimation {
   0% {
-    color: #F1F7EE;
+    color: #000;
   }
 
   50% {
     transform: rotate(xx);
-    color: #000;
+    color: #F1F7EE;
   }
 
   100% {
     transform: rotate(xx);
-    color: #F1F7EE;
+    color: #000;
   }
 }
 

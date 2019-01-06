@@ -1,12 +1,12 @@
 .Header2 {
- -webkit-clip-path: polygon(0 30%, 100% 10%, 100% 90%, 0 70%);
- clip-path: polygon(0 30%, 100% 10%, 100% 90%, 0 70%);
+ -webkit-clip-path: polygon(0 30%, 100% 10%, 100% 70%, 0 90%);
+ clip-path: polygon(0 30%, 100% 10%, 100% 70%, 0 90%);
     min-height: 100vh;
     background-color: #000;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: calc(10px + 10vmin);
+    font-size: calc(10px + 4vmin);
     color: #F1F7EE;
     font-family: Georgia,
     serif;

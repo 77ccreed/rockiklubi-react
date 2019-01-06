@@ -7,7 +7,7 @@ class Header2 extends Component {
   render() {
     return (
  <section className="Header2">
-        <h2 className="m-3 mr-md-5 text-right">Alternatiivklubi, kus propageeritakse elavat muusikat nii kodu kui välismaalt.</h2>
+        <h2 className="m-3 ml-md-5 text-left">Alternatiivklubi, kus propageeritakse elavat muusikat nii kodu kui välismaalt.</h2>
  </section>
     );
   }

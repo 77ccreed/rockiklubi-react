@@ -6,6 +6,7 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
+import "./../Css/Carousel.css";
 
 const items = [
 
@@ -59,6 +60,7 @@ class UritusedCarousel extends Component {
     const slides = items.map((item) => {
       return (
         <CarouselItem
+          className="Carousel"
           onExiting={this.onExiting}
           onExited={this.onExited}
           key={item.src}
