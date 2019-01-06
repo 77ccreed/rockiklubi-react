@@ -10,9 +10,7 @@
   color: #F1F7EE;
   font-family: Georgia,
     serif;
-  animation: textColorAnimation 40s infinite 0s linear;
-
-  
+  animation: textColorAnimation 40s infinite 0s linear; 
 }
 
 .Header-text {
