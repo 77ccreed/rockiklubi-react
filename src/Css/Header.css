@@ -1,6 +1,6 @@
 .App-header {
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 74%, 0 94%);
-  clip-path: polygon(0 0, 100% 0, 100% 74%, 0 94%);
+ -webkit-clip-path: polygon(0 0, 100% 0, 100% 64%, 0 84%);
+ clip-path: polygon(0 0, 100% 0, 100% 64%, 0 84%);
   background-color: #000000;
   min-height: 100vh;
   display: flex;
@@ -11,11 +11,19 @@
   font-family: Georgia,
     serif;
   animation: textColorAnimation 40s infinite 0s linear;
+
+  
+}
+
+.Header-text {
+text-shadow: rgb(241, 247, 238) 1px 0 5px;
+
 }
 
 .Header-text2 {
   animation: yourAnimation 20s infinite 0s ease;
   color: #ED1C25;
+   
 }
 
 .Header-text3 {

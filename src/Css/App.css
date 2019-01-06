@@ -1,5 +1,11 @@
 .App {
   text-align: center;
-  background-color: #ED1C25;
+  
+   min-height: 200vh;
+ 
+
+ background-color: #ED1C25;
+  
+   
 }
 
