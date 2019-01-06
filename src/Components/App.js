@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import "./../Css/App.css";
 import Header from './Header';
-import Uritused from './Uritused';
+import Header2 from './Header2';
+import UritusedCarousel from './Carousel';
 
 class App extends Component {
   render() {
@@ -9,7 +10,8 @@ class App extends Component {
       <div className="App">
       <Header />
       <main>
-     <Uritused />
+     <Header2 />
+          <UritusedCarousel />
       </main>
       </div>
     );
