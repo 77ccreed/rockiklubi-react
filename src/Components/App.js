@@ -13,11 +13,11 @@ class App extends Component {
       <Header / >
       <main >
       <Header2 / >
-      <h3 className = "m-3 text-black mb-5" > Varsti tulemas </h3> 
+      <h3 className = "m-3 text-black mb-5" >Varsti tulemas</h3> 
       <figure >
       <img src = {plakat}
       alt = "Elephant at sunset" ></img>
-      </figure> 
+      </figure>  
       <Tehnikanimekiri className="mt-5"/>
       </main> 
       </div>
