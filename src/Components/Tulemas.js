@@ -7,14 +7,14 @@ import {
   CarouselCaption
 } from 'reactstrap';
 import "./../Css/Tulemas.css";
-import plakat from "./../Css/Images/09_11_2018.webp";
+import plakat from './09.11.2018.jpg';
 
 
 const items = [
 
 
   {
-    src: { plakat }   ,
+    src: { plakat }  ,
     altText: 'Slide 1',
     caption: 'Slide 1'
   }
