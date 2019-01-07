@@ -6,16 +6,18 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
-import "./../Css/Carousel.css";
+import "./../Css/Tulemas.css";
+import plakat from "./../Css/Images/09_11_2018.webp";
+
 
 const items = [
 
-  {
-    src: "http://www.rockiklubi.ee/plakatid/2018/09_11_2018.jpg",
-    altText: 'Üritused'
-   
-  },
 
+  {
+    src: { plakat }   ,
+    altText: 'Slide 1',
+    caption: 'Slide 1'
+  }
 ];
 
 class UritusedCarousel extends Component {
