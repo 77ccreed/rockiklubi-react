@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
 
-class TehnikaNimekiri extends Component {
+class Drumms extends Component {
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);
@@ -14,15 +14,16 @@ class TehnikaNimekiri extends Component {
 
   render() {
     return (
+
       <div>
-        <Button color="primary" onClick={this.toggle} style={{ marginBottom: '1rem' }}>Toggle</Button>
+        <Button onClick={this.toggle} style={{ margin: '1rem' }}>Drumms</Button>
         <Collapse isOpen={this.state.collapse}>
           <Card>
             <CardBody>
-              Anim pariatur cliche reprehenderit,
-               enim eiusmod high life accusamus terry richardson ad squid. Nihil
-               anim keffiyeh helvetica, craft beer labore wes anderson cred
-               nesciunt sapiente ea proident.
+              <p>PDP Concept 10",12",14",16", 22" bass</p>
+              <p>14" snare</p>
+              <p>3 symbal stands</p>
+              <p>1 hi-hat stand</p>
             </CardBody>
           </Card>
         </Collapse>
@@ -31,4 +32,4 @@ class TehnikaNimekiri extends Component {
   }
 }
 
-export default TehnikaNimekiri;
+export default Drumms;
