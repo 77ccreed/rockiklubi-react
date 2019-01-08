@@ -16,7 +16,7 @@ class Pa extends Component {
     return (
       
       <div>
-        <Button onClick={this.toggle} style={{ margin: '1rem' }}> PA</Button>
+        <Button className="btn-own" onClick={this.toggle} style={{ margin: '1rem' }}> PA</Button>
         <Collapse isOpen={this.state.collapse}>
           <Card>
             <CardBody>

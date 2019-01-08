@@ -7,20 +7,25 @@ import Monitor from './Monitor';
 import Microphones from './Microphones';
 import Backline from './Backline';
 import Drumms from './Drumms';
+import Salvestus from './Salvestus';
 
 
 class Header extends Component {
   render() {
     return (
      
-      <div className="Tehnikanimekiri row" >
-        <h3 className="m-2">Tehnika</h3>
-        <Pa className="m-2" />
-        <FohMixer className="m-2" />
-        <Monitor className="m-2" />
-        <Microphones className="m-2" />
-        <Backline className="m-2" />
-        <Drumms className="m-2" />
+      <div className="Tehnikanimekiri">
+        
+        <div>
+          <h3 className="m-2 p-2">Tehnika</h3>
+          <Pa className="m-2 p-2 " />
+          <FohMixer className="m-2 p-2" />
+          <Monitor className="m-2 p-2" />
+          <Microphones className="m-2 p-2" />
+          <Backline className="m-2 p-2" />
+          <Drumms className="m-2 p-2" />
+          <Salvestus className="m-2 p-2" />
+          </div>        
         </div>
     );
   }

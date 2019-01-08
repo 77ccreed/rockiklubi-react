@@ -16,7 +16,7 @@ class Monitor extends Component {
     return (
 
       <div>
-        <Button onClick={this.toggle} style={{ margin: '1rem' }}>Monitor</Button>
+        <Button className="btn-own" onClick={this.toggle} style={{ margin: '1rem' }}>Monitor</Button>
         <Collapse isOpen={this.state.collapse}>
           <Card>
             <CardBody>

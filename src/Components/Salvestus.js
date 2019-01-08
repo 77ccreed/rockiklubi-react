@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
 
-class Backline extends Component {
+class Salvestus extends Component {
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);
@@ -16,15 +16,14 @@ class Backline extends Component {
     return (
 
       <div>
-        <Button className="btn-own" onClick={this.toggle} style={{ margin: '1rem' }}>Backline</Button>
+        <Button className="btn-own" onClick={this.toggle} style={{ margin: '1rem' }}>Salvestus</Button>
         <Collapse isOpen={this.state.collapse}>
           <Card>
             <CardBody>
-              <p>Bass amps: Ampeg PF-800 head ja Ampeg PF-410HLF kabinet</p>
-              <p>Bass amp Hughes&Kettner 1x15 120w </p>
-              <p>Guitar amp Carlsbro GLX100 1x12 combo</p>
-              <p>Carvin MTS3200 2x12 combo</p>
-              <p>Marshall 4x12" MG412B Cab</p>
+              <p>PC/Cubase 9.5</p>
+              <p>Waves</p>
+              <p>Midas 32R</p>
+              <p>DL251</p>
             </CardBody>
           </Card>
         </Collapse>
@@ -33,4 +32,4 @@ class Backline extends Component {
   }
 }
 
-export default Backline;
+export default Salvestus;

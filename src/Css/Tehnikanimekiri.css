@@ -1,9 +1,15 @@
 .Tehnikanimekiri {
-  background-color: #000000;
-  min-height: 100vh;
+ background-color: #000000;
+ min-height: 100vh;
   display: flex;
-  flex-direction: row;
-  justify-content: center; 
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-own {
+  background-color: #73C2BE;
+  color:#000;
+  border: 3px solid transparent;
+  min-width: 140px;
 }
 

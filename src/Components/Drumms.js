@@ -16,7 +16,7 @@ class Drumms extends Component {
     return (
 
       <div>
-        <Button onClick={this.toggle} style={{ margin: '1rem' }}>Drumms</Button>
+        <Button className="btn-own" onClick={this.toggle} style={{ margin: '1rem' }}>Drumms</Button>
         <Collapse isOpen={this.state.collapse}>
           <Card>
             <CardBody>

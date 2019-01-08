@@ -15,9 +15,8 @@ class FohMixer extends Component {
 
   render() {
     return (
-
       <div>
-        <Button onClick={this.toggle} style={{ margin: '1rem' }}> Foh Mixer</Button>
+        <Button className="btn-own" onClick={this.toggle} style={{ margin: '1rem' }}> Foh Mixer</Button>
         <Collapse isOpen={this.state.collapse}>
           <Card>
             <CardBody>
