@@ -14,7 +14,7 @@ const items = [
 
 
   {
-    src: { plakat }  ,
+    src: plakat ,
     altText: 'Slide 1',
     caption: 'Slide 1'
   }

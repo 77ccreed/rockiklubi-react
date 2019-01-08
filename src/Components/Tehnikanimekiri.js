@@ -17,7 +17,7 @@ class Header extends Component {
       <div className="Tehnikanimekiri">
         
         <div>
-          <h3 className="m-2 p-2">Tehnika</h3>
+          <h3 className="m-2 p-2 pt-3 h3">Tehnika</h3>
           <Pa className="m-2 p-2 " />
           <FohMixer className="m-2 p-2" />
           <Monitor className="m-2 p-2" />

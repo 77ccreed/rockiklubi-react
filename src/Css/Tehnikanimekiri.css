@@ -10,6 +10,10 @@
   background-color: #73C2BE;
   color:#000;
   border: 3px solid transparent;
-  min-width: 140px;
+  min-width: 200px;
+}
+
+.h3 {
+   color: #F1F7EE;
 }
 
