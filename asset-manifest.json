@@ -1,7 +1,7 @@
 {
-  "main.css": "/rockiklubi-react/static/css/main.a781a4a9.chunk.css",
-  "main.js": "/rockiklubi-react/static/js/main.3437a335.chunk.js",
-  "main.js.map": "/rockiklubi-react/static/js/main.3437a335.chunk.js.map",
+  "main.css": "/rockiklubi-react/static/css/main.f6a9ea11.chunk.css",
+  "main.js": "/rockiklubi-react/static/js/main.f05cbc2a.chunk.js",
+  "main.js.map": "/rockiklubi-react/static/js/main.f05cbc2a.chunk.js.map",
   "static/css/1.92065730.chunk.css": "/rockiklubi-react/static/css/1.92065730.chunk.css",
   "static/js/1.500bf7f2.chunk.js": "/rockiklubi-react/static/js/1.500bf7f2.chunk.js",
   "static/js/1.500bf7f2.chunk.js.map": "/rockiklubi-react/static/js/1.500bf7f2.chunk.js.map",
@@ -9,8 +9,8 @@
   "runtime~main.js.map": "/rockiklubi-react/static/js/runtime~main.1d89de25.js.map",
   "static/css/1.92065730.chunk.css.map": "/rockiklubi-react/static/css/1.92065730.chunk.css.map",
   "static/media/09.11.2018.jpg": "/rockiklubi-react/static/media/09.11.2018.8481e500.jpg",
-  "static/css/main.a781a4a9.chunk.css.map": "/rockiklubi-react/static/css/main.a781a4a9.chunk.css.map",
+  "static/css/main.f6a9ea11.chunk.css.map": "/rockiklubi-react/static/css/main.f6a9ea11.chunk.css.map",
   "index.html": "/rockiklubi-react/index.html",
-  "precache-manifest.eea627f911126cddfa5857bbab86c89f.js": "/rockiklubi-react/precache-manifest.eea627f911126cddfa5857bbab86c89f.js",
+  "precache-manifest.4b97ced6432688327c0d6ecffcbbce3e.js": "/rockiklubi-react/precache-manifest.4b97ced6432688327c0d6ecffcbbce3e.js",
   "service-worker.js": "/rockiklubi-react/service-worker.js"
 }
