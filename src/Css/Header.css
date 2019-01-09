@@ -5,8 +5,9 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   color: #F1F7EE;
+  padding-top: 25vh; 
 }
 
 h1 {
