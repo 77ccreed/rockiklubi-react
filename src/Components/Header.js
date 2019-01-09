@@ -8,7 +8,7 @@ class Header extends Component {
     return (    
       <header className="App-header">
         <h1 className="display-4 m-3 ml-md-5 text-left"><span className="Header-text2" >Valga</span> <span className="Header-text">Rockiklubi</span></h1>
-        <h4 className=" ml-3 ml-md-5 text-left">Aastast 2002 - vanim rockiklubi Eestis</h4>
+        <h5 className=" ml-3 ml-md-5 text-left">Aastast 2002 - vanim rockiklubi Eestis</h5>
       </header>    
     );
   }
