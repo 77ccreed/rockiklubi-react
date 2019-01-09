@@ -15,7 +15,7 @@ class Footer extends Component {
           <div className="row">
 
 
-            <div className="col-md-4 col-lg-4 mr-auto my-md-4 my-0 mt-4 mb-1">
+            <div className="col-md-4 col-lg-5 mr-auto my-md-4 my-0 mt-4 mb-1">
 
 
               <h5 className="font-weight-bold text-uppercase mb-4">Valga Rockiklubi</h5>
@@ -35,7 +35,7 @@ class Footer extends Component {
              
 
 
-                <div className="col-md-4 col-lg-4 mx-auto my-md-4 my-0 mt-4 mb-1">
+                <div className="col-md-4 col-lg-5 mx-auto my-md-4 my-0 mt-4 mb-1">
 
                   <h5 className="font-weight-bold text-uppercase mb-4">Aadress</h5>
 
@@ -65,19 +65,19 @@ class Footer extends Component {
               
 
 
-                  <div className="col-md-4 col-lg-4 mx-auto my-4 row text-center">
+                  <div className="col-md-4 col-lg-2 mx-auto my-4 row text-center">
 
 
                     <h5 className="font-weight-bold text-uppercase mb-4 col-12">LEIA MEID!</h5>
 
 
-              <a href="https://www.facebook.com/Valga-Rockiklubi-141376155934174/" target="_blank" className="col-12 p-1 text-dark" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/Valga-Rockiklubi-141376155934174/" target="_blank" className="col-12 p-1" rel="noopener noreferrer">
               FaceBook
                     </a>
 
              
 
-              <a href="https://github.com/77ccreed/valga-rokiklubi" target="_blank" className="col-12 p-1 text-dark" rel="noopener noreferrer">
+              <a href="https://github.com/77ccreed/valga-rokiklubi" target="_blank" className="col-12 p-1" rel="noopener noreferrer">
                      GitHub
                     </a>
 
