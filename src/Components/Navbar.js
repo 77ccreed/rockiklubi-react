@@ -26,10 +26,10 @@ export default class HamburgerMenu extends React.Component {
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="https://www.facebook.com/Valga-Rockiklubi-141376155934174/" target="_blank" rel="noreferrer">FaceBook</NavLink>
+                <NavLink href="https://www.facebook.com/Valga-Rockiklubi-141376155934174/" target="_blank" rel="noopener noreferrer">FaceBook</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/77ccreed/rockiklubi-react" target="_blank" rel="noreferrer">GitHub</NavLink>
+                <NavLink href="https://github.com/77ccreed/rockiklubi-react" target="_blank" rel="noopener noreferrer">GitHub</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

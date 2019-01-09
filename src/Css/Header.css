@@ -31,12 +31,10 @@ text-shadow: rgb(241, 247, 238) 1px 0 5px;
   }
 
   50% {
-    transform: rotate(xx);
     color: #F1F7EE;
   }
 
   100% {
-    transform: rotate(xx);
     color: #000;
   }
 }
@@ -51,7 +49,6 @@ text-shadow: rgb(241, 247, 238) 1px 0 5px;
   }
 
   100% {
-    transform: rotate(xx);
     opacity: 0;
   }
 }
