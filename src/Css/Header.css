@@ -14,25 +14,28 @@ h1 {
     font-size: calc(10px + 8vmin);
       font-family: Georgia,
       serif;
-      animation: textColorAnimation 23s infinite 0s linear;
+     animation: yourAnimation 5s 1 0s ease-out;
 }
 
 h6 {
-   animation: textColorAnimation 40s infinite 0s linear;
+  animation: yourAnimation 2s 1 0s ease-out;
 }
 
 .Header-text {
 text-shadow: rgb(241, 247, 238) 1px 0 1px;
-
+ 
 }
 
 .Header-text2 {
-  animation: yourAnimation 27s infinite 0s ease;
   color: #ED1C25;   
 }
 
-
-
+.viisnurk {
+-webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+   background-color: #000;
+}
+/*
 @keyframes textColorAnimation {
   0% {
     color: #F1F7EE;
@@ -58,5 +61,19 @@ text-shadow: rgb(241, 247, 238) 1px 0 1px;
 
   100% {
     opacity: 0;
+  }
+}
+*/
+@keyframes yourAnimation {
+  0% {
+    transform: translateY(-300px);
+  }
+
+  50% {
+    transform: translateY(100px);
+  }
+
+  100% {
+    transform: rotate(xx) translateY(0px);
   }
 }

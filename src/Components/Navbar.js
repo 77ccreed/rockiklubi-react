@@ -23,7 +23,7 @@ export default class HamburgerMenu extends React.Component {
     return (
       <div className="HamburgerMenu">
         <Navbar dark>
-          <NavbarBrand className="mr-auto HamburgerMenu font-weight-bold">VRK</NavbarBrand>
+          <NavbarBrand className="mr-auto HamburgerMenu vrk font-weight-bold ml-md-5">VRK</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
