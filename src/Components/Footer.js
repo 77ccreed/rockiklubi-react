@@ -53,7 +53,7 @@ class Footer extends Component {
                         <i className="fa fa-phone mr-3"></i> +(372) 521 0882</p>
                     </li>
                     <li>
-                      <p>Arvelduskonto:</p>
+                  <p><i class="fas fa-money-check mr-3"></i> Arvelduskonto:</p>
                       <p>AS SEB Pank</p>
                       <p>a/a 10220025716013</p>
                     </li>
@@ -71,14 +71,14 @@ class Footer extends Component {
                     <h5 className="font-weight-bold text-uppercase mb-4 col-12">LEIA MEID!</h5>
 
 
-              <a href="https://www.facebook.com/Valga-Rockiklubi-141376155934174/" target="_blank" className="col-12 p-1" rel="noopener noreferrer">
-                <i class="fab fa-facebook"></i>
+              <a href="https://www.facebook.com/Valga-Rockiklubi-141376155934174/" target="_blank" className="col-12 p-1 text-dark" rel="noopener noreferrer">
+              FaceBook
                     </a>
 
              
 
-                    <a href="https://github.com/77ccreed/valga-rokiklubi" target="_blank" className="col-12 p-1" rel="noopener noreferrer">
-                      <i class="fab fa-github fa-2x text-dark"></i>
+              <a href="https://github.com/77ccreed/valga-rokiklubi" target="_blank" className="col-12 p-1 text-dark" rel="noopener noreferrer">
+                     GitHub
                     </a>
 
 

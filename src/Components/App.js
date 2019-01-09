@@ -10,6 +10,9 @@ import Tehnikanimekiri from './Tehnikanimekiri';
 import UritusedCarousel from './Tulemas';
 import VarasemUritused from './Varasem';
 import Footer from './Footer';
+
+
+
 class App extends Component {
   render() {
     return ( 
