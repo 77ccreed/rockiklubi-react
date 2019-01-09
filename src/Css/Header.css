@@ -21,12 +21,12 @@ h6 {
 }
 
 .Header-text {
-text-shadow: rgb(241, 247, 238) 1px 0 5px;
+text-shadow: rgb(241, 247, 238) 1px 0 1px;
 
 }
 
 .Header-text2 {
-  animation: yourAnimation 17s infinite 0s ease;
+  animation: yourAnimation 22s infinite 0s ease;
   color: #ED1C25;   
 }
 
