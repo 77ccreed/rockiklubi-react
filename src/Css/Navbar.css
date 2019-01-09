@@ -1,12 +1,22 @@
 .HamburgerMenu {
   background: #000;
   color: #F1F7EE;
+  animation: textColorAnimation 15s infinite 0s linear;
 }
 
-navbar-brand{
-  color: #F1F7EE;
+@keyframes textColorAnimation {
+  0% {
+    color: #000;
+  }
+
+  50% {
+    transform: rotate(xx);
+    color: #F1F7EE;
+  }
+
+  100% {
+    transform: rotate(xx);
+    color: #000;
+  }
 }
 
-navbar-toggler {
-  color: #F1F7EE;
-}

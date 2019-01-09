@@ -21,7 +21,7 @@ export default class HamburgerMenu extends React.Component {
     return (
       <div className="HamburgerMenu">
         <Navbar color="faded" dark>
-          <NavbarBrand href="/" className="mr-auto">VRK</NavbarBrand>
+          <NavbarBrand href="/" className="mr-auto HamburgerMenu">VRK</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
