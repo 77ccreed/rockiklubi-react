@@ -26,15 +26,6 @@ class Footer extends Component {
             </div>
 
 
-           
-
-
-             
-
-
-             
-
-
                 <div className="col-md-4 col-lg-5 mx-auto my-md-4 my-0 mt-4 mb-1">
 
                   <h5 className="font-weight-bold mb-4">Aadress</h5>
