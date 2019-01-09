@@ -18,7 +18,7 @@ class Footer extends Component {
             <div className="col-md-4 col-lg-5 mr-auto my-md-4 my-0 mt-4 mb-1">
 
 
-              <h5 className="font-weight-bold text-uppercase mb-4">Valga Rockiklubi</h5>
+              <h5 className="font-weight-bold mb-4">Valga Rockiklubi</h5>
               <p>Aastast 2002 - vanim rockiklubi Eestis. Omalaadne alternatiivklubi, kus propageeritakse elavat muusikat nii kodu
                 kui välismaalt. "Valga Rockiklubi - koht, mis rockib!". See on koht, mis ei jäta külmaks! Klubi areneb kogu
               aeg, et pakkuda paremat elamust nii publikule kui esinejatele.</p>
@@ -37,7 +37,7 @@ class Footer extends Component {
 
                 <div className="col-md-4 col-lg-5 mx-auto my-md-4 my-0 mt-4 mb-1">
 
-                  <h5 className="font-weight-bold text-uppercase mb-4">Aadress</h5>
+                  <h5 className="font-weight-bold mb-4">Aadress</h5>
 
                   <ul className="list-unstyled">
                     <li>
@@ -61,15 +61,9 @@ class Footer extends Component {
 
                 </div>
 
-
-              
-
-
                   <div className="col-md-4 col-lg-2 mx-auto my-4 row text-center">
 
-
-                    <h5 className="font-weight-bold text-uppercase mb-4 col-12">LEIA MEID!</h5>
-
+                    <h5 className="font-weight-bold mb-4 col-12">Leia meid!</h5>
 
               <a href="https://www.facebook.com/Valga-Rockiklubi-141376155934174/" target="_blank" className="col-12 p-1" rel="noopener noreferrer">
               FaceBook
