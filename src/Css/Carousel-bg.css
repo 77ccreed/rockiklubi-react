@@ -1,0 +1,17 @@
+.carousel-bg{
+    text-align: center;
+    background-color: #ED1C25;
+      min-height: 100vh;    
+}
+
+.suurem-pealkiri {
+    color: #F1F7EE;
+}
+
+.väiksem-pealkiri {
+   color: #000;
+}
+
+.tekst {
+   color: #000;
+}

@@ -7,8 +7,8 @@ import Header from './Header';
 import Header2 from './Header2';
 import Header3 from './Header3';
 import Tehnikanimekiri from './Tehnikanimekiri';
-import UritusedCarousel from './Tulemas';
-import VarasemUritused from './Varasem';
+import Tulemas from './Tulemas';
+import Varasem from './Varasem';
 import Footer from './Footer';
 
 
@@ -22,15 +22,13 @@ class App extends Component {
       <main >
       <Header2 / >
         
-      <h3 className = "m-3 h3">Varsti tulemas</h3> 
-          <UritusedCarousel />
-          <br></br>
+      <Tulemas />
+        
           <Header3 />
       <Tehnikanimekiri className="mt-3"/>
-          <br></br>
-          <h3 className="m-3 h3">Varasem</h3>
-          <VarasemUritused />
-          <br></br>
+       
+          <Varasem />
+        
           <Footer />
       </main> 
       </div>

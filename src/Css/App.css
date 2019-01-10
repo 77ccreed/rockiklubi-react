@@ -1,7 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
 .App {
   text-align: center;  
    min-height: 200vh;
- background-color: #ED1C25;  
+  background-color: #ED1C25;  
   font-family: Georgia,
   serif;
 }
@@ -10,6 +18,3 @@ img {
   max-width: 100%;
 }
 
-.h3 {
-  color: #F1F7EE;
-}

@@ -8,23 +8,20 @@
   justify-content: start;
   color: #F1F7EE;
   padding-top: 25vh; 
+  padding-left: 4vw;
 }
 
 h1 {
     font-size: calc(10px + 8vmin);
       font-family: Georgia,
       serif;
-     animation: yourAnimation 5s 1 0s ease-out;
+ animation: yourAnimation 4s 1 0s ease-out;
 }
 
 h6 {
   animation: yourAnimation 2s 1 0s ease-out;
 }
 
-.Header-text {
-text-shadow: rgb(241, 247, 238) 1px 0 1px;
- 
-}
 
 .Header-text2 {
   color: #ED1C25;   
