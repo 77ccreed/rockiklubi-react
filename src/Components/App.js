@@ -20,7 +20,7 @@ class App extends Component {
       <HamburgerMenu />
       <Header / >
       <main >
-      <Header2 / >
+      
         
       <Tulemas />
         
@@ -28,7 +28,7 @@ class App extends Component {
       <Tehnikanimekiri className="mt-3"/>
        
           <Varasem />
-        
+          <Header2 />
           <Footer />
       </main> 
       </div>

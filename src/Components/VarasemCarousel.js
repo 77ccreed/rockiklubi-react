@@ -4,18 +4,25 @@ import {
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption
-} from 'reactstrap';
-import plakat from './09.11.2018.jpg';
 
+} from 'reactstrap';
+
+import plakat1 from './../Images/01_05_2010.jpg';
+import plakat2 from './../Images/01_10_2011.jpg';
+import plakat3 from './../Images/01_11_2013.jpg';
 
 const items = [
-
-
   {
-    src: plakat,
+    src: plakat1,
     altText: 'Slide 1',
-    caption: 'Slide 1'
+  },
+  {
+    src: plakat2,
+    altText: 'Slide 2',
+  },
+  {
+    src: plakat3,
+    altText: 'Slide 3',
   }
 ];
 
@@ -61,13 +68,11 @@ class VarasemUritused extends Component {
     const slides = items.map((item) => {
       return (
         <CarouselItem
-          className="Carousel"
           onExiting={this.onExiting}
           onExited={this.onExited}
           key={item.src}
         >
           <img src={item.src} alt={item.altText} />
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </CarouselItem>
       );
     });

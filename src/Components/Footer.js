@@ -41,7 +41,7 @@ class Footer extends Component {
                         <i className="fa fa-phone mr-3"></i> +(372) 521 0882</p>
                     </li>
                     <li>
-                  <p><i class="fas fa-money-check mr-3"></i> Arvelduskonto:</p>
+                  <p><i className="fas fa-money-check mr-3"></i> Arvelduskonto:</p>
                       <p>AS SEB Pank</p>
                       <p>a/a 10220025716013</p>
                     </li>
