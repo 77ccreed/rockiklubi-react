@@ -20,23 +20,23 @@ self.__precacheManifest = [
     "url": "/rockiklubi-react/static/js/runtime~main.1d89de25.js"
   },
   {
-    "revision": "8170fd0b8d4955572704",
-    "url": "/rockiklubi-react/static/js/main.8170fd0b.chunk.js"
+    "revision": "6b6a49c617be97405808",
+    "url": "/rockiklubi-react/static/js/main.6b6a49c6.chunk.js"
   },
   {
     "revision": "cfe4876be53f959eecbc",
     "url": "/rockiklubi-react/static/js/1.cfe4876b.chunk.js"
   },
   {
-    "revision": "8170fd0b8d4955572704",
-    "url": "/rockiklubi-react/static/css/main.1b3d7633.chunk.css"
+    "revision": "6b6a49c617be97405808",
+    "url": "/rockiklubi-react/static/css/main.72223931.chunk.css"
   },
   {
     "revision": "cfe4876be53f959eecbc",
     "url": "/rockiklubi-react/static/css/1.f18236aa.chunk.css"
   },
   {
-    "revision": "293edaa1aac2ad9043f6eac0f479b99a",
+    "revision": "eea990a72b4fde68a47368345ff3b289",
     "url": "/rockiklubi-react/index.html"
   }
 ];
