@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import {
   Carousel,
   CarouselItem,
-  CarouselControl,
-  CarouselIndicators,
-  CarouselCaption
+  CarouselControl
 } from 'reactstrap';
 import "./../Css/Carousel-bg.css";
 import plakat from './09.11.2018.jpg';
@@ -68,7 +66,6 @@ class UritusedCarousel extends Component {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} />
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </CarouselItem>
       );
     });
@@ -79,7 +76,6 @@ class UritusedCarousel extends Component {
         next={this.next}
         previous={this.previous}
       >
-        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         {slides}
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
