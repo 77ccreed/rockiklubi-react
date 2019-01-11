@@ -25,6 +25,93 @@ import plakat16 from './../Images/05_02_10.jpg';
 import plakat17 from './../Images/05_02_2011.jpg';
 import plakat18 from './../Images/05_09_2015.jpg';
 import plakat19 from './../Images/05_10_2012.jpg';
+import plakat20 from './../Images/05_11_2010.jpg';
+import plakat21 from './../Images/05_11_2016.jpg';
+import plakat22 from './../Images/05_12_2015.jpg';
+import plakat23 from './../Images/06_01_2012.jpg';
+import plakat24 from './../Images/06_05_2016.jpg';
+import plakat25 from './../Images/06_11_2015.jpg';
+import plakat26 from './../Images/06_12_13.jpg';
+import plakat27 from './../Images/06_12_2014.jpg';
+import plakat28 from './../Images/07_02_09.jpg';
+import plakat29 from './../Images/07_04_2018.jpg';
+import plakat30 from './../Images/08_09_2017.jpg';
+import plakat31 from './../Images/08_10_2011.jpg';
+import plakat32 from './../Images/08_11_2014.jpg';
+import plakat33 from './../Images/09_04_2010.jpg';
+import plakat34 from './../Images/09_06_2012.jpg';
+import plakat35 from './../Images/09_09_2016.jpg';
+import plakat36 from './../Images/09_10_09.jpg';
+import plakat37 from './../Images/11_04_09.jpg';
+import plakat38 from './../Images/11_09_09.jpg';
+import plakat39 from './../Images/12_03_10.jpg';
+import plakat40 from './../Images/12_03_2011.jpg';
+import plakat41 from './../Images/12_05_2012v.jpg';
+import plakat42 from './../Images/12_05_2017.jpg';
+import plakat43 from './../Images/13_04_2013.jpg';
+import plakat44 from './../Images/13_10_2017.jpg';
+import plakat45 from './../Images/13_11_09.jpg';
+import plakat46 from './../Images/14_04_2017.jpg';
+import plakat47 from './../Images/14_05_2010.jpg';
+import plakat48 from './../Images/14_05_2011.jpg';
+import plakat49 from './../Images/14_05_2016.jpg';
+import plakat50 from './../Images/15_04_2016.jpg';
+import plakat51 from './../Images/16_01_10.jpg';
+import plakat52 from './../Images/16_05_09.jpg';
+import plakat53 from './../Images/16_05_2014.jpg';
+import plakat54 from './../Images/16_08_2013.jpg';
+import plakat55 from './../Images/17_02_2017.jpg';
+import plakat56 from './../Images/17_04_2015.jpg';
+import plakat57 from './../Images/17_08_2012.jpg';
+import plakat58 from './../Images/17_10_09.jpg';
+import plakat59 from './../Images/18_03_2016.jpg';
+import plakat60 from './../Images/18_09_2010.jpg';
+import plakat61 from './../Images/19_02_10.jpg';
+import plakat62 from './../Images/19_03_2011.jpg';
+import plakat63 from './../Images/20_01_2017.jpg';
+import plakat64 from './../Images/20_02_09.jpg';
+import plakat65 from './../Images/20_03_09.jpg';
+import plakat66 from './../Images/20_11_2010.jpg';
+import plakat67 from './../Images/21_01_2011.jpg';
+import plakat68 from './../Images/21_01_2012.jpg';
+import plakat69 from './../Images/21_04_2012.jpg';
+import plakat70 from './../Images/21_05_2011.jpg';
+import plakat71 from './../Images/21_09_2013.jpg';
+import plakat72 from './../Images/22_08_2014.jpg';
+import plakat73 from './../Images/23_04_2011.jpg';
+import plakat74 from './../Images/23_07_09.jpg';
+import plakat75 from './../Images/23_09_2011.jpg';
+import plakat76 from './../Images/24_05_2013.jpg';
+import plakat77 from './../Images/25_04_09.jpg';
+import plakat78 from './../Images/25_09_09.jpg';
+import plakat79 from './../Images/26_02_10.jpg';
+import plakat80 from './../Images/26_02_2011.jpg';
+import plakat81 from './../Images/26_03_10.jpg';
+import plakat82 from './../Images/26_03_2016.jpg';
+import plakat83 from './../Images/26_04_2013.jpg';
+import plakat84 from './../Images/26_04_2014.jpg';
+import plakat85 from './../Images/26_11_2011.jpg';
+import plakat86 from './../Images/26_11_2016.jpg';
+import plakat87 from './../Images/27_11_2010.jpg';
+import plakat88 from './../Images/28_03_09.jpg';
+import plakat89 from './../Images/28_10_2011.jpg';
+import plakat90 from './../Images/28_10_2017.jpg';
+import plakat91 from './../Images/02_23_2018.jpg';
+import plakat92 from './../Images/02_23_2018.jpg';
+import plakat93 from './../Images/28_11_09.jpg';
+import plakat94 from './../Images/29_05_09.jpg';
+import plakat95 from './../Images/29_05_2010.jpg';
+import plakat96 from './../Images/30_03_2018.jpg';
+import plakat97 from './../Images/30_06_2012.jpg';
+import plakat98 from './../Images/30_10_2010.jpg';
+import plakat99 from './../Images/31_01_09.jpg';
+import plakat100 from './../Images/6_12_09.jpg';
+import plakat101 from './../Images/BAND_TOUR_2010.jpg';
+import plakat102 from './../Images/BANDTOUR2011.jpg';
+import plakat103 from './../Images/noor_rock.jpg';
+import plakat104 from './../Images/noor_rock_2011.jpg';
+import plakat105 from './../Images/tour2009.jpg';
+import plakat106 from './../Images/tourmentandfun.jpg';
 
 const items = [
   {
@@ -103,8 +190,354 @@ const items = [
     src: plakat19,
     altText: 'Slide 1',
   },
-
-
+  {
+    src: plakat20,
+    altText: 'Slide 2',
+  },
+  {
+    src: plakat21,
+    altText: 'Slide 2',
+  },
+  {
+    src: plakat22,
+    altText: 'Slide 2',
+  },
+  {
+    src: plakat23,
+    altText: 'Slide 2',
+  },
+  {
+    src: plakat24,
+    altText: 'Slide 2',
+  },
+  {
+    src: plakat25,
+    altText: 'Slide 2',
+  },
+  {
+    src: plakat26,
+    altText: 'Slide 2',
+  },
+  {
+    src: plakat27,
+    altText: 'Slide 2',
+  },
+  {
+    src: plakat28,
+    altText: 'Slide 2',
+  },
+  {
+    src: plakat29,
+    altText: 'Slide 2',
+  },
+  {
+    src: plakat30,
+    altText: 'Slide 3',
+  },
+  {
+    src: plakat31,
+    altText: 'Slide 3',
+  },
+  {
+    src: plakat32,
+    altText: 'Slide 3',
+  },
+  {
+    src: plakat33,
+    altText: 'Slide 3',
+  },
+  {
+    src: plakat34,
+    altText: 'Slide 3',
+  },
+  {
+    src: plakat35,
+    altText: 'Slide 3',
+  },
+  {
+    src: plakat36,
+    altText: 'Slide 3',
+  },
+  {
+    src: plakat37,
+    altText: 'Slide 3',
+  },
+  {
+    src: plakat38,
+    altText: 'Slide 3',
+  },
+  {
+    src: plakat39,
+    altText: 'Slide 3',
+  },
+  {
+    src: plakat40,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat41,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat42,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat43,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat44,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat45,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat46,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat47,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat48,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat49,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat50,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat51,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat52,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat53,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat54,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat55,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat56,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat57,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat58,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat59,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat60,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat61,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat62,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat63,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat64,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat65,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat66,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat67,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat68,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat69,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat70,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat71,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat72,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat73,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat74,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat75,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat76,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat77,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat78,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat79,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat80,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat81,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat82,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat83,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat84,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat85,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat86,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat87,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat88,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat89,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat90,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat91,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat92,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat93,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat94,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat95,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat96,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat97,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat98,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat99,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat100,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat101,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat102,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat103,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat104,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat105,
+    altText: 'Slide 1',
+  },
+  {
+    src: plakat106,
+    altText: 'Slide 1',
+  }
 ];
 
 class VarasemUritused extends Component {
