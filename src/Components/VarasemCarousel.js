@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import {
   Carousel,
   CarouselItem,
-  CarouselControl
-
+  CarouselControl,
+  CarouselIndicators
 } from 'reactstrap';
 
 import plakat1 from './../Images/01_05_2010.jpg';
@@ -96,8 +96,6 @@ import plakat87 from './../Images/27_11_2010.jpg';
 import plakat88 from './../Images/28_03_09.jpg';
 import plakat89 from './../Images/28_10_2011.jpg';
 import plakat90 from './../Images/28_10_2017.jpg';
-import plakat91 from './../Images/02_23_2018.jpg';
-import plakat92 from './../Images/02_23_2018.jpg';
 import plakat93 from './../Images/28_11_09.jpg';
 import plakat94 from './../Images/29_05_09.jpg';
 import plakat95 from './../Images/29_05_2010.jpg';
@@ -475,14 +473,6 @@ const items = [
     altText: 'Slide 1',
   },
   {
-    src: plakat91,
-    altText: 'Slide 1',
-  },
-  {
-    src: plakat92,
-    altText: 'Slide 1',
-  },
-  {
     src: plakat93,
     altText: 'Slide 1',
   },
@@ -587,6 +577,7 @@ class VarasemUritused extends Component {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} />
+
         </CarouselItem>
       );
     });
@@ -597,7 +588,7 @@ class VarasemUritused extends Component {
         next={this.next}
         previous={this.previous}
       >
-       
+        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         {slides}
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />

@@ -23,12 +23,12 @@ class App extends Component {
       
         
       <Tulemas />
-        
-          <Header3 />
-      <Tehnikanimekiri className="mt-3"/>
        
+          
+      <Tehnikanimekiri className="mt-3"/>
+          
           <Varasem />
-          <Header2 />
+          
           <Footer />
       </main> 
       </div>

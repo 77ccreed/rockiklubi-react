@@ -15,13 +15,28 @@
 
 .suurem-pealkiri-hele {
   color: #F1F7EE;
+      box-sizing: border-box;
+      font-size: 2em;
+      font-weight: 600;
+      line-height: 1.2;
+      margin: 0;
+      padding: 10px 0;
 }
 
 .väiksem-pealkiri-hele {
    color: #73C2BE;
+      box-sizing: border-box;
+      font-size: 1.2em;
+      font-weight: 200;
+      line-height: 1.1;
 }
 
 .tekst-hele {
   color: #F1F7EE;
+     box-sizing: border-box;
+     margin-bottom: 1em;
+     margin-top: 1em;
+     overflow-wrap: break-word;
+     word-break: break-word;
 }
 
