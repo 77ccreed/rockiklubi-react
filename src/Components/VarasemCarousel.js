@@ -632,7 +632,6 @@ Carousel.propTypes = {
 };
 
 CarouselItem.propTypes = {
-  ...Transition.propTypes,
   tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
   in: PropTypes.bool,
   cssModule: PropTypes.object,
