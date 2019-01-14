@@ -1,6 +1,7 @@
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import "./../Css/Navbar.css";
+import PropTypes from 'prop-types';
 
 
 
@@ -39,4 +40,10 @@ export default class HamburgerMenu extends React.Component {
       </div>
     );
   }
+}
+
+NavbarToggler.propTypes = {
+  type: PropTypes.string,
+  tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string])
+  // pass in custom element to use
 }

@@ -4,8 +4,6 @@ import React, {
 import "./../Css/App.css";
 import HamburgerMenu from './Navbar';
 import Header from './Header';
-import Header2 from './Header2';
-import Header3 from './Header3';
 import Tehnikanimekiri from './Tehnikanimekiri';
 import Tulemas from './Tulemas';
 import Varasem from './Varasem';

@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import {
   Carousel,
   CarouselItem,
-  CarouselControl,
-  CarouselIndicators
+  CarouselControl
 } from 'reactstrap';
+import PropTypes from 'prop-types';
 
 import plakat1 from './../Images/01_05_2010.jpg';
 import plakat2 from './../Images/01_10_2011.jpg';
@@ -588,7 +588,6 @@ class VarasemUritused extends Component {
         next={this.next}
         previous={this.previous}
       >
-        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         {slides}
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
@@ -599,3 +598,51 @@ class VarasemUritused extends Component {
 
 
 export default VarasemUritused;
+
+Carousel.propTypes = {
+  // the current active slide of the carousel
+  activeIndex: PropTypes.number,
+  // a function which should advance the carousel to the next slide (via activeIndex)
+  next: PropTypes.func.isRequired,
+  // a function which should advance the carousel to the previous slide (via activeIndex)
+  previous: PropTypes.func.isRequired,
+  // controls if the left and right arrow keys should control the carousel
+  keyboard: PropTypes.bool,
+  /* If set to "hover", pauses the cycling of the carousel on mouseenter and resumes the cycling of the carousel on
+   * mouseleave. If set to false, hovering over the carousel won't pause it. (default: "hover")
+   */
+  pause: PropTypes.oneOf(['hover', false]),
+  // Autoplays the carousel after the user manually cycles the first item. If "carousel", autoplays the carousel on load.
+  // This is how bootstrap defines it... I would prefer a bool named autoplay or something...
+  ride: PropTypes.oneOf(['carousel']),
+  // the interval at which the carousel automatically cycles (default: 5000)
+  interval: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.string,
+    PropTypes.bool,
+  ]),
+  children: PropTypes.array,
+  // called when the mouse enters the Carousel
+  mouseEnter: PropTypes.func,
+  // called when the mouse exits the Carousel
+  mouseLeave: PropTypes.func,
+  // controls whether the slide animation on the Carousel works or not
+  slide: PropTypes.bool,
+  cssModule: PropTypes.object,
+};
+
+CarouselItem.propTypes = {
+  ...Transition.propTypes,
+  tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
+  in: PropTypes.bool,
+  cssModule: PropTypes.object,
+  children: PropTypes.node,
+  slide: PropTypes.bool,
+};
+
+CarouselControl.propTypes = {
+  direction: PropTypes.oneOf(['prev', 'next']).isRequired,
+  onClickHandler: PropTypes.func.isRequired,
+  cssModule: PropTypes.object,
+  directionText: PropTypes.string
+};

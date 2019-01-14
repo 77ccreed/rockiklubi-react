@@ -8,7 +8,8 @@
   import Microphones from './Microphones';
   import Backline from './Backline';
   import Drumms from './Drumms';
-  import Salvestus from './Salvestus'
+  import Salvestus from './Salvestus';
+import PropTypes from 'prop-types';
 
   const Tehnikanimekiri = (props) => {
     return (
@@ -43,3 +44,10 @@
   };
 
   export default Tehnikanimekiri;
+
+Jumbotron.propTypes = {
+  // Pass in a Component to override default element
+  tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
+  fluid: PropTypes.bool,
+  className: PropTypes.string
+};

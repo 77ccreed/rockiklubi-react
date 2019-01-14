@@ -24,7 +24,7 @@ class Footer extends Component {
             </div>
 
 
-            <div className="col-md-4 col-lg-3 offset-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+            <div className="col-md-3 offset-md-2 mx-auto my-md-4 my-0 mt-4 mb-1">
                   <h5 className="font-weight-bold mb-4">Aadress</h5>
 
                   <ul className="list-unstyled">
@@ -49,7 +49,7 @@ class Footer extends Component {
 
                 </div>
 
-                  <div className="col-md-4 col-lg-2 mx-auto my-4 row text-center">
+                  <div className="col-md-3 col-lg-2 mx-auto my-4 row text-center">
 
                     <h5 className="font-weight-bold mb-4 col-12">Leia meid!</h5>
 

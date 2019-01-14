@@ -2,6 +2,7 @@ import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 import VarasemCarousel from './VarasemCarousel';
 import "./../Css/Carousel-bg.css";
+import PropTypes from 'prop-types';
 
 const Varasem = (props) => {
   return (
@@ -30,3 +31,10 @@ const Varasem = (props) => {
 };
 
 export default Varasem;
+
+Jumbotron.propTypes = {
+  // Pass in a Component to override default element
+  tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
+  fluid: PropTypes.bool,
+  className: PropTypes.string
+};

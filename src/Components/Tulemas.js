@@ -2,6 +2,7 @@ import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 import UritusedCarousel from './UritusedTulemas';
 import "./../Css/Carousel-bg.css";
+import PropTypes from 'prop-types';
 
 const Tulemas = (props) => {
   return (
@@ -30,3 +31,10 @@ const Tulemas = (props) => {
 };
 
 export default Tulemas;
+
+Jumbotron.propTypes = {
+  // Pass in a Component to override default element
+  tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
+  fluid: PropTypes.bool,
+  className: PropTypes.string
+};
