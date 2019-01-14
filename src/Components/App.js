@@ -8,34 +8,28 @@ import Tehnikanimekiri from './Tehnikanimekiri';
 import Tulemas from './Tulemas';
 import Varasem from './Varasem';
 import Footer from './Footer';
-import { Parallax, ParallaxLayer } from "react-spring"
-
+import LazyLoad from 'react-lazyload';
 
 
 class App extends Component {
   render() {
     return ( 
-  
+     
     <div className = "App" >
-        
-      <HamburgerMenu />
-      
+      <HamburgerMenu />  
       <Header / >
-       
       <main >
       
-        
       <Tulemas />
-       
-          
       <Tehnikanimekiri className="mt-3"/>
-          
-          <Varasem />
-          </main> 
+          <LazyLoad height={200} once >
 
+          <Varasem />
+          </LazyLoad>
+          </main> 
           <Footer />
-      
       </div>
+
     );
   }
 }

@@ -5,8 +5,10 @@ import "./../Css/Header.css";
 
 class Header extends Component {
   render() {
-    return (    
+    return ( 
+     
       <header className="App-header">
+         
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-8">
@@ -18,7 +20,9 @@ class Header extends Component {
             </div>
         </div>
         </div>
-      </header>    
+      
+      </header>  
+    
     );
   }
 }

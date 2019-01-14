@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import {
   Carousel,
-  CarouselItem,
-  CarouselControl
+  CarouselItem
 } from 'reactstrap';
 import "./../Css/Carousel-bg.css";
 import plakat from './09.11.2018.jpg';
@@ -77,8 +76,6 @@ class UritusedCarousel extends Component {
         previous={this.previous}
       >
         {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
       </Carousel>
     );
   }
@@ -125,11 +122,4 @@ CarouselItem.propTypes = {
   cssModule: PropTypes.object,
   children: PropTypes.node,
   slide: PropTypes.bool,
-};
-
-CarouselControl.propTypes = {
-  direction: PropTypes.oneOf(['prev', 'next']).isRequired,
-  onClickHandler: PropTypes.func.isRequired,
-  cssModule: PropTypes.object,
-  directionText: PropTypes.string
 };
