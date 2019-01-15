@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/rockiklubi-react/precache-manifest.f6659cec3301eecb44b0865fcfbfb7cb.js"
+  "/rockiklubi-react/precache-manifest.cbb07250794cd0cd4ef242e113a2fd62.js"
 );
 
 workbox.clientsClaim();
