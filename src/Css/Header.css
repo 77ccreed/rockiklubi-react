@@ -13,11 +13,11 @@ h1 {
     font-size: calc(10px + 8vmin);
       font-family: Georgia,
       serif;
-       animation: scale 2.2s 1 0s ease-out;
+       animation: scale 1.6s 1 0s ease-out;
 }
 
 h6 {
-  animation: yourAnimation 2s 1 0s ease-out;
+  animation: yourAnimation 1.5s 1 0s ease-out;
 }
 
 .Header-text2 {
@@ -41,13 +41,13 @@ h6 {
 
 @keyframes scale {
   0% {
-    transform: scale(0.5);
-    opacity: 0;
+    transform: scale(0.7);
+    opacity: 0.1;
   }
 
   50% {
-    transform: scale(1.5);
-    opacity: 0.5;
+    transform: scale(1.1);
+    opacity: 0.3;
   }
 
   100% {
