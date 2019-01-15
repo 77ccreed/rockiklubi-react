@@ -30,10 +30,11 @@ import PropTypes from 'prop-types';
 
 
               <div className="col-lg-6 text-left text align-self-center mt-5">
-                <h3 className="suurem-pealkiri-hele p-2">Jutt tehnika kohta</h3>
-                <h5 className="väiksem-pealkiri-hele p-2">Natukene pikem jutt - kokkuvõte. Paarkümmend sõna. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dignissimos iste voluptas! Quae eaque totam ullam unde corporis nulla numquam!</h5>
-                <p className="tekst-hele p-2">
-  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi eos modi explicabo mollitia temporibus cumque corrupti odio eaque totam reprehenderit? Reiciendis tempore fuga velit, sapiente alias doloremque similique voluptatibus autem molestias eveniet asperiores nesciunt. Ab quaerat ut impedit fugit? Voluptate earum quibusdam recusandae expedita facere quisquam autem nam explicabo ullam, iste amet. Aliquid veniam ducimus illo animi omnis architecto officia corporis at molestias harum, maxime voluptates, odio ratione cupiditate, voluptatum laboriosam deleniti distinctio quibusdam nobis nemo magnam quo! Iste facilis consectetur harum iusto, tempore repudiandae aliquam fuga enim voluptas accusamus ratione, molestias nihil ab accusantium placeat corrupti, numquam sunt. Fuga sunt sit aperiam exercitationem temporibus doloremque numquam, inventore incidunt quisquam a et laudantium illo maxime alias aliquam nobis nostrum laboriosam odit laborum quasi. Architecto necessitatibus saepe veniam magnam nam vero dolor, sint aliquid ad distinctio hic!
+                <h3 className="suurem-pealkiri-hele p-2">Heli- ja valgustehnika, stuudio ja ruumide rent.</h3>
+                <h5 className="väiksem-pealkiri-hele p-2">Natukene pikem jutt - kokkuvõte. Paarkümmend sõna stuudio ja tehnika kohta. </h5>
+                <p className="tekst-hele p-2">Heli- ja valgustehnika, stuudio ja ruumide rent.
+Kellele mõeldud ja mis on hinnad. Kas tehnikat saab rentida mujal kasutamiseks ja mis on suuremad üritused, kus seda on kasutatud. Mis on tehnika kvaliteet. Kuidas see on aja jooksul kokku saadud ja mida tahaks/oleks vaja veel juurde hankida.  Märksõnad, mida võiks kasutada: stuudio, Valga, hinnad, muusika salvestamine, stuudioaegade broneerimine ja stuudio rent, heli- ja valgustehnika
+  
 </p>
               </div>
             </div>

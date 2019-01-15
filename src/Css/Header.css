@@ -13,7 +13,7 @@ h1 {
     font-size: calc(10px + 8vmin);
       font-family: Georgia,
       serif;
-      animation: scale 2.2s 1 0s ease-out;
+       animation: scale 2.2s 1 0s ease-out;
 }
 
 h6 {
@@ -21,7 +21,8 @@ h6 {
 }
 
 .Header-text2 {
-  color: #ED1C25;   
+  color: #ED1C25;  
+  
 }
 
 @keyframes yourAnimation {
@@ -57,8 +58,7 @@ h6 {
 
 @media screen and (min-width:603px) {
 
-  .App-header {
-   
+  .App-header {  
     padding-top: 30vh;
     padding-left: 12vw;
   }

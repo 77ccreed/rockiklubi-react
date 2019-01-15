@@ -1,6 +1,7 @@
 import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 import VarasemCarousel from './VarasemCarousel';
+import Pilt from './Pilt';
 import "./../Css/Carousel-bg.css";
 import PropTypes from 'prop-types';
 
@@ -11,18 +12,20 @@ const Varasem = (props) => {
         <Container fluid>
           <div className="row">
             <div className="col-lg-6">
-              <h3 className="suurem-pealkiri m-2">Varasem</h3>
+              <h3 className="suurem-pealkiri m-2 mb-xl-5">Varasem</h3>
               <VarasemCarousel />
             </div>
 
             <div className="col-lg-4 text-left align-self-center mt-4">
-              <h3 className="suurem-pealkiri p-2">Jutt toimunud ürituste kohta</h3>
-              <h5 className="väiksem-pealkiri p-2">Natukene pikem jutt - kokkuvõte. Paarkümmend sõna. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dignissimos iste voluptas! Quae eaque totam ullam unde corporis nulla numquam!</h5>
-              <p className="tekst p-2">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo nulla reiciendis unde exercitationem sint deleniti amet neque enim porro corporis similique, itaque nobis nisi. Debitis magni ad quam inventore explicabo excepturi eligendi eius tenetur. Aperiam consequuntur tenetur eius accusantium molestiae nisi neque earum aut, mollitia tempora consectetur fuga, qui adipisci! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo esse earum voluptates reiciendis officiis, voluptate, debitis fugit maxime, beatae assumenda culpa placeat optio. Modi error ex sit quidem quos voluptate molestiae quia, doloremque, ratione tempore laudantium. Cum dolorem quos esse velit consequuntur, voluptatem tempora! Obcaecati, repudiandae voluptatum. Aspernatur consequuntur eligendi quisquam quia! Aspernatur hic velit dicta ratione tempora sunt beatae cumque id aliquam?
+              <h3 className="suurem-pealkiri p-2">Jutt toimunud ürituste ja klubi kohta</h3>
+              <h5 className="väiksem-pealkiri p-2">Natukene pikem jutt - kokkuvõte. Paarkümmend sõna klubi ja toimunud ürituste kohta.</h5>
+              <p className="tekst p-2">Mis on klubi eesmärk, kuidas sai alguse? 
+          Kuidas iseloomustaksite Valga Rockiklubi? Mis asi see on? Kes on esinejad ja publik? Kas korraldate valdavalt ise sündmusi? Kas saate lisaks ka mingil määral toetust omavalitsuselt ja/või riigilt? Kuidas iseloomustaksite 2018. aastat Valga Rockiklubis? Mis on plaanid ja ootused järgnevaks aastaks? Kaua on klubi tegutsenud ja palju on selle aja jooksul esinejaid olnud. Kes on neist tuntumad tänasel päeval? Vanim rokiklubi Eestis? Koostöö teiste klubide ja organisatsioonidega. Kuidas saada klubi liikmeks?
 </p>
             </div>
-
+            <div className="col-12 mt-xl-5">
+<Pilt />
+            </div>
           </div>
         </Container>
       </Jumbotron>

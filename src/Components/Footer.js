@@ -51,7 +51,7 @@ class Footer extends Component {
 
                   <div className="col-md-3 col-lg-2 mx-auto my-4 row text-center">
 
-                    <h5 className="font-weight-bold mb-4 col-12">Leia meid!</h5>
+                    <h5 className="font-weight-bold mb-4 col-12">Vaata lisaks!</h5>
 
               <a href="https://www.facebook.com/Valga-Rockiklubi-141376155934174/" target="_blank" className="col-12 p-1" rel="noopener noreferrer">
               FaceBook

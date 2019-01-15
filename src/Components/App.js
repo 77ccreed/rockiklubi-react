@@ -11,10 +11,11 @@ import Footer from './Footer';
 import LazyLoad from 'react-lazyload';
 
 
+
 class App extends Component {
   render() {
     return ( 
-     
+
     <div className = "App" >
       <HamburgerMenu />  
       <Header / >
@@ -22,14 +23,14 @@ class App extends Component {
       
       <Tulemas />
       <Tehnikanimekiri className="mt-3"/>
-          <LazyLoad height={200} once >
+          <LazyLoad height={20} offset={100} once >
 
           <Varasem />
           </LazyLoad>
           </main> 
           <Footer />
       </div>
-
+   
     );
   }
 }
