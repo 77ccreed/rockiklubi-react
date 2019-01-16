@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/rockiklubi-react/static/media/16_01_10.e3a0da28.jpg"
   },
   {
-    "revision": "cd8c64950dced8cabc86",
-    "url": "/rockiklubi-react/static/css/main.776078e7.chunk.css"
+    "revision": "364854f755cd09bb73a0",
+    "url": "/rockiklubi-react/static/css/main.c76bb0d5.chunk.css"
   },
   {
     "revision": "0072f310863547733bc1c777e42c0a87",
@@ -224,8 +224,8 @@ self.__precacheManifest = [
     "url": "/rockiklubi-react/static/media/15_04_2016.ecfe2637.jpg"
   },
   {
-    "revision": "cd8c64950dced8cabc86",
-    "url": "/rockiklubi-react/static/js/main.cd8c6495.chunk.js"
+    "revision": "364854f755cd09bb73a0",
+    "url": "/rockiklubi-react/static/js/main.364854f7.chunk.js"
   },
   {
     "revision": "04b8c5106caebaffe416fcda21071353",
@@ -448,7 +448,7 @@ self.__precacheManifest = [
     "url": "/rockiklubi-react/static/css/1.b88cce55.chunk.css"
   },
   {
-    "revision": "45e4248917ae74269e2adb48dbbe7f5e",
+    "revision": "a86a4a9248006137e5f0cd837be7bff0",
     "url": "/rockiklubi-react/index.html"
   }
 ];
