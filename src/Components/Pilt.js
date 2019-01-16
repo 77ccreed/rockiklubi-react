@@ -6,8 +6,9 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
-import pilt1 from './../Images/Pilt/49233440_564579294043676_1025147481681297408_n.jpg';
-import pilt2 from './../Images/Pilt/49857683_564579234043682_2087838908879470592_n.jpg';
+import pilt1 from './../Images/Pilt/pexels-photo-1105666.jpeg';
+import pilt2 from './../Images/Pilt/pexels-photo-144428.jpeg';
+import pilt3 from './../Images/Pilt/pexels-photo-164693.jpeg';
 
 const items = [
   {
@@ -19,7 +20,13 @@ const items = [
     src: pilt2,
     altText: 'Slide 3',
     caption: 'Slide 3'
-  }
+  },
+  {
+    src: pilt3,
+    altText: 'Slide 1',
+    caption: 'Slide 1'
+  },
+  
 ];
 
 class Pilt extends Component {
