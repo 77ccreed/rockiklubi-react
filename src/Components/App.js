@@ -7,6 +7,7 @@ import Header from './Header';
 import Tehnikanimekiri from './Tehnikanimekiri';
 import Tulemas from './Tulemas';
 import Varasem from './Varasem';
+import Map from './Map';
 import Footer from './Footer';
 import LazyLoad from 'react-lazyload';
 
@@ -28,6 +29,7 @@ class App extends Component {
           <Varasem />
           </LazyLoad>
           </main> 
+          <Map />
           <Footer />
       </div>
    

@@ -9,6 +9,11 @@
   padding-top: 20vh;   
 }
 
+#map {
+  height: 94vh;
+  width: 100%;
+}
+
 h1 {
     font-size: calc(10px + 8vmin);
       font-family: Georgia,
@@ -21,8 +26,7 @@ h6 {
 }
 
 .Header-text2 {
-  color: #ED1C25;  
-  
+  color: #ED1C25;   
 }
 
 @keyframes yourAnimation {
