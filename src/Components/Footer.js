@@ -63,7 +63,6 @@ class Footer extends Component {
                      GitHub
                     </a>
 
-
                   </div>
 
         </div>

@@ -29,7 +29,7 @@ import PropTypes from 'prop-types';
               </div>
 
 
-              <div className="col-lg-6 text-left text align-self-center mt-5">
+              <div className="col-lg-6 offset-lg-1 text-left text align-self-center mt-5">
                 <h3 className="suurem-pealkiri-hele p-2">Heli- ja valgustehnika, stuudio ja ruumide rent.</h3>
                 <h5 className="väiksem-pealkiri-hele p-2">Natukene pikem jutt - kokkuvõte. Paarkümmend sõna stuudio ja tehnika kohta. </h5>
                 <p className="tekst-hele p-2">Heli- ja valgustehnika, stuudio ja ruumide rent.

@@ -15,7 +15,7 @@ const Tulemas = (props) => {
 <UritusedCarousel />
         </div>
 
-            <div className="col-lg-4 text-left align-self-center mt-5">
+            <div className="col-md-10 col-lg-5 ml-md-5 ml-lg-1 text-left align-self-center mt-5">
               <h3 className="suurem-pealkiri p-2">Jutt ürituste kohta</h3>
               <h5 className="väiksem-pealkiri p-2">Natukene pikem jutt - kokkuvõte. Paarkümmend sõna tulevaste ürituste ja klubi kohta.</h5>
               <p className="tekst p-2">Ürituste korraldamine Valgas. Kes on esinejad ja publik? Kuidas kujuneb välja programm? Kustkohast on pärit esinejad.

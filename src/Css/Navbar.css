@@ -3,6 +3,61 @@
     color: #F1F7EE;   
 }
 
+.nav-item {
+   width: 60px;
+   margin-left: 70vw;
+}
+
+.flag-en {
+  width: 60px;
+  height: 60px;
+  background-image: url('./../Images/Flags/united-kingdom-flag-3d-icon-32.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  font-size: 0;
+}
+
+.flag-et {
+  width: 60px;
+  height: 60px;
+  background-image: url('./../Images/Flags/estonia-flag-3d-icon-32.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  font-size: 0;
+}
+
+.flag-fin {
+  width: 60px;
+  height: 60px;
+  background-image: url('./../Images/Flags/finland-flag-3d-icon-32.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  font-size: 0;
+}
+
+.flag-lat {
+  width: 60px;
+  height: 60px;
+  background-image: url('./../Images/Flags/latvia-flag-3d-icon-32.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  font-size: 0;
+}
+
+.flag-ge {
+  width: 60px;
+  height: 60px;
+  background-image: url('./../Images/Flags/germany-flag-3d-icon-32.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  font-size: 0;
+}
+
 .vrk {
 animation: VRK 1.5s 1 0s ease-out;
 }
