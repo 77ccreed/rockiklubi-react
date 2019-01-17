@@ -31,18 +31,12 @@ export default class HamburgerMenu extends React.Component {
               <NavbarBrand className="mr-auto HamburgerMenu vrk font-weight-bold ml-md-5"> VRK</NavbarBrand>
               <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
               <Collapse isOpen={!this.state.collapsed} navbar>
-                <Nav navbar>
+                <Nav navbar className="d-flex flex-row justify-content-center" >
                   <NavItem>
-                    <NavLink href="https://www.facebook.com/Valga-Rockiklubi-141376155934174/" target="_blank" rel="noopener noreferrer">FaceBook</NavLink>
+                    <NavLink className="btn flag-et"></NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="https://github.com/77ccreed/rockiklubi-react" target="_blank" rel="noopener noreferrer">GitHub</NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink className="btn flag-et "></NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink className="btn flag-en "></NavLink>
+                    <NavLink className="btn flag-en"></NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink className="btn flag-ge"></NavLink>
