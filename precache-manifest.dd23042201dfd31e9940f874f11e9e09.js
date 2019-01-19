@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "04b8c5106caebaffe416fcda21071353",
-    "url": "/rockiklubi-react/static/media/16_05_09.04b8c510.jpg"
+    "revision": "29505eb07d79ef030ae67b9defb370bf",
+    "url": "/rockiklubi-react/static/media/14_05_2016.29505eb0.jpg"
   },
   {
-    "revision": "14ef7dd32e5a0e6b5a5e",
-    "url": "/rockiklubi-react/static/css/main.8359ecbf.chunk.css"
+    "revision": "86a6c9cf56b42b6ca0e3",
+    "url": "/rockiklubi-react/static/css/main.632ceca6.chunk.css"
   },
   {
-    "revision": "b7107727fcf85473720d8a387f08e613",
-    "url": "/rockiklubi-react/static/media/pexels-photo-164693.b7107727.jpeg"
+    "revision": "1410b0c7e52928ba16a03113d076db2c",
+    "url": "/rockiklubi-react/static/media/tourmentandfun.1410b0c7.jpg"
   },
   {
-    "revision": "1daee30a8c0fb472f9c3",
-    "url": "/rockiklubi-react/static/js/1.1daee30a.chunk.js"
+    "revision": "6a84f9f67de7ba6325bc",
+    "url": "/rockiklubi-react/static/js/1.6a84f9f6.chunk.js"
   },
   {
     "revision": "1d89de25f0228af62ef2",
@@ -22,6 +22,18 @@ self.__precacheManifest = [
   {
     "revision": "8481e5001a2ee2d1c30a51f5258b311d",
     "url": "/rockiklubi-react/static/media/09.11.2018.8481e500.jpg"
+  },
+  {
+    "revision": "f4a0f576fe8e8d9af680ba875c78862b",
+    "url": "/rockiklubi-react/static/media/pexels-photo-1105666.f4a0f576.jpeg"
+  },
+  {
+    "revision": "610d030f411d006547cd011cacdfadaa",
+    "url": "/rockiklubi-react/static/media/pexels-photo-144428.610d030f.jpeg"
+  },
+  {
+    "revision": "b7107727fcf85473720d8a387f08e613",
+    "url": "/rockiklubi-react/static/media/pexels-photo-164693.b7107727.jpeg"
   },
   {
     "revision": "4d432f258dd39ab21d953065977edbe1",
@@ -216,8 +228,8 @@ self.__precacheManifest = [
     "url": "/rockiklubi-react/static/media/14_05_2011.ed717c88.jpg"
   },
   {
-    "revision": "29505eb07d79ef030ae67b9defb370bf",
-    "url": "/rockiklubi-react/static/media/14_05_2016.29505eb0.jpg"
+    "revision": "86a6c9cf56b42b6ca0e3",
+    "url": "/rockiklubi-react/static/js/main.86a6c9cf.chunk.js"
   },
   {
     "revision": "ecfe26371f7c02bc025f96510f5456ef",
@@ -228,8 +240,8 @@ self.__precacheManifest = [
     "url": "/rockiklubi-react/static/media/16_01_10.e3a0da28.jpg"
   },
   {
-    "revision": "14ef7dd32e5a0e6b5a5e",
-    "url": "/rockiklubi-react/static/js/main.14ef7dd3.chunk.js"
+    "revision": "04b8c5106caebaffe416fcda21071353",
+    "url": "/rockiklubi-react/static/media/16_05_09.04b8c510.jpg"
   },
   {
     "revision": "89b19427e37399326614742b12f31b40",
@@ -436,23 +448,11 @@ self.__precacheManifest = [
     "url": "/rockiklubi-react/static/media/tour2009.cc1eb2a8.jpg"
   },
   {
-    "revision": "1410b0c7e52928ba16a03113d076db2c",
-    "url": "/rockiklubi-react/static/media/tourmentandfun.1410b0c7.jpg"
+    "revision": "6a84f9f67de7ba6325bc",
+    "url": "/rockiklubi-react/static/css/1.1cf65832.chunk.css"
   },
   {
-    "revision": "f4a0f576fe8e8d9af680ba875c78862b",
-    "url": "/rockiklubi-react/static/media/pexels-photo-1105666.f4a0f576.jpeg"
-  },
-  {
-    "revision": "610d030f411d006547cd011cacdfadaa",
-    "url": "/rockiklubi-react/static/media/pexels-photo-144428.610d030f.jpeg"
-  },
-  {
-    "revision": "1daee30a8c0fb472f9c3",
-    "url": "/rockiklubi-react/static/css/1.e166a734.chunk.css"
-  },
-  {
-    "revision": "669c666d0919bb64aca8e5ff19794155",
+    "revision": "ccfd8ddda02896c853e48d70cb395e78",
     "url": "/rockiklubi-react/index.html"
   }
 ];
