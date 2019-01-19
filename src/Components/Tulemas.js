@@ -2,6 +2,7 @@ import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 import UritusedCarousel from './UritusedTulemas';
 import "./../Css/Carousel-bg.css";
+import Pilt from './Pilt';
 import PropTypes from 'prop-types';
 
 const Tulemas = (props) => {
@@ -10,7 +11,7 @@ const Tulemas = (props) => {
       <Jumbotron fluid className="carousel-bg">
         <Container fluid>
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 mb-lg-5">
               <h3 className="suurem-pealkiri m-2">Peatselt klubis</h3>
 <UritusedCarousel />
         </div>
@@ -24,6 +25,10 @@ const Tulemas = (props) => {
 </div>
 
        </div>
+          <div className="mt-lg-5">
+            <Pilt />
+       </div>
+          
         </Container>
       </Jumbotron>
     </div>

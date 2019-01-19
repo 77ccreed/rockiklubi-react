@@ -1,6 +1,4 @@
 .App-header {
-
-
  -webkit-clip-path: polygon(0 0, 100% 0, 100% 64%, 0 84%);
  clip-path: polygon(0 0, 100% 0, 100% 64%, 0 84%);
   background-color: #000000;
@@ -12,16 +10,21 @@
 }
 
 h1 {
-    font-size: calc(10px + 8vmin);
+
       font-family: Georgia,
       serif;
-       animation: scale 1.6s 1 0s ease-out;  
+       font-size: 3em;
+       font-weight: 600;
+       line-height: 5px;
+      animation: scale 1.6s 1 0s ease-out;  
 }
 
  
 
 h6 {
   animation: yourAnimation 1.5s 1 0s ease-out;
+     font-size: 1.2em;
+     font-weight: 200;
 }
 
 .Header-text2 {

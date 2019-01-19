@@ -1,6 +1,7 @@
 import React, {
   Component
 } from 'react';
+import { BrowserRouter, Route, Switch, Link, NavLink } from 'react-router-dom';
 import "./../Css/App.css";
 import HamburgerMenu from './Navbar';
 import Header from './Header';
@@ -16,7 +17,7 @@ import LazyLoad from 'react-lazyload';
 class App extends Component {
   render() {
     return ( 
-
+      <BrowserRouter>
     <div className = "App" >
       <HamburgerMenu />  
       <Header / >
@@ -32,7 +33,7 @@ class App extends Component {
           <Map />
           <Footer />
       </div>
-   
+        </BrowserRouter>
     );
   }
 }

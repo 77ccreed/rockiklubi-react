@@ -1,8 +1,8 @@
 import React from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink  } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap';
 import "./../Css/Navbar.css";
 import PropTypes from 'prop-types';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -24,7 +24,6 @@ export default class HamburgerMenu extends React.Component {
   render() {
     return (
 
-      <Router>
         <div>
           <div className="HamburgerMenu">
             <Navbar dark>
@@ -33,19 +32,19 @@ export default class HamburgerMenu extends React.Component {
               <Collapse isOpen={!this.state.collapsed} navbar>
                 <Nav navbar className="d-flex flex-row justify-content-center" >
                   <NavItem>
-                    <NavLink className="btn flag-et"></NavLink>
+                  <NavLink to="/" exact={true} className="btn flag-et"></NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink className="btn flag-en"></NavLink>
+                  <NavLink to="/en" className="btn flag-en"></NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink className="btn flag-ge"></NavLink>
+                  <NavLink to="/ge" className="btn flag-ge"></NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink className="btn flag-fin"></NavLink>
+                  <NavLink to="/fin" className="btn flag-fin"></NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink className="btn flag-lat"></NavLink>
+                  <NavLink to="/lat" className="btn flag-lat"></NavLink>
                   </NavItem>
                 </Nav>
               </Collapse>
@@ -56,11 +55,7 @@ export default class HamburgerMenu extends React.Component {
          
 
                  
-        </div>
-      </Router>
-
-
-     
+        </div>   
     );
   }
   
