@@ -1,7 +1,7 @@
   import React from 'react';
   import { Jumbotron, Container } from 'reactstrap';
-  import "./../Css/App.css";
-  import "./../Css/Tehnikanimekiri.css";
+  import "./../../Css/App.css";
+  import "./../../Css/Tehnikanimekiri.css";
   import Pa from './Pa';
   import FohMixer from './FohMixer';
   import Monitor from './Monitor';

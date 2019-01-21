@@ -6,9 +6,9 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
-import pilt1 from './../Images/Pilt/pexels-photo-1105666.jpeg';
-import pilt2 from './../Images/Pilt/pexels-photo-144428.jpeg';
-import pilt3 from './../Images/Pilt/pexels-photo-164693.jpeg';
+import pilt1 from './../../Images/Pilt/pexels-photo-1105666.jpeg';
+import pilt2 from './../../Images/Pilt/pexels-photo-144428.jpeg';
+import pilt3 from './../../Images/Pilt/pexels-photo-164693.jpeg';
 
 const items = [
   {

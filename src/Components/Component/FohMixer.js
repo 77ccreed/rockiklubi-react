@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
-import "./../Css/Tehnikanimekiri.css";
+import "./../../Css/Tehnikanimekiri.css";
 
 class FohMixer extends Component {
   constructor(props) {

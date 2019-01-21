@@ -2,7 +2,7 @@ import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 import UritusedCarousel from './UritusedTulemas';
 import "./../Css/Carousel-bg.css";
-import Pilt from './Pilt';
+import Pilt from './Component/Pilt';
 import PropTypes from 'prop-types';
 
 const Tulemas = (props) => {
