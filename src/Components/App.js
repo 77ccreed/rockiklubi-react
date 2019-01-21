@@ -3,11 +3,11 @@ import React, {
 } from 'react';
 import { BrowserRouter, Route, Switch, Link, NavLink } from 'react-router-dom';
 import "./../Css/App.css";
-import HamburgerMenu from './Navbar';
-import Header from './Header';
+import HamburgerMenu from './Component/Navbar';
+import Header from './Component/Header';
 import Tehnikanimekiri from './Component/Tehnikanimekiri';
-import Tulemas from './Tulemas';
-import Varasem from './Varasem';
+import Tulemas from './Component/Tulemas';
+import Varasem from './Component/Varasem';
 import Map from './Component/Map';
 import Footer from './Component/Footer';
 import LazyLoad from 'react-lazyload';

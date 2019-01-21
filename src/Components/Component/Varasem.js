@@ -1,8 +1,8 @@
 import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
-import VarasemCarousel from './Component/VarasemCarousel';
-import Pilt from './Component/Pilt';
-import "./../Css/Carousel-bg.css";
+import VarasemCarousel from './VarasemCarousel';
+import Pilt from './Pilt';
+import "./../../Css/Carousel-bg.css";
 import PropTypes from 'prop-types';
 
 const Varasem = (props) => {

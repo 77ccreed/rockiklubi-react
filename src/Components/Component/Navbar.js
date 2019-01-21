@@ -1,6 +1,6 @@
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap';
-import "./../Css/Navbar.css";
+import "./../../Css/Navbar.css";
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 

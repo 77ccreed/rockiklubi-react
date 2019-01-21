@@ -3,8 +3,8 @@ import {
   Carousel,
   CarouselItem
 } from 'reactstrap';
-import "./../Css/Carousel-bg.css";
-import plakat from './../Images/PlakatTulev/09.11.2018.jpg';
+import "./../../Css/Carousel-bg.css";
+import plakat from './../../Images/PlakatTulev/09.11.2018.jpg';
 import PropTypes from 'prop-types';
 
 const items = [
