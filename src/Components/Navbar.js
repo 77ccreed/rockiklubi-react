@@ -4,8 +4,6 @@ import "./../Css/Navbar.css";
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 
-
-
 export default class HamburgerMenu extends React.Component {
   constructor(props) {
     super(props);
@@ -38,27 +36,21 @@ export default class HamburgerMenu extends React.Component {
                   <NavLink to="/en" className="btn flag-en"></NavLink>
                   </NavItem>
                   <NavItem>
-                  <NavLink to="/ge" className="btn flag-ge"></NavLink>
+                  <NavLink to="/de" className="btn flag-ge"></NavLink>
                   </NavItem>
                   <NavItem>
-                  <NavLink to="/fin" className="btn flag-fin"></NavLink>
+                  <NavLink to="/fi" className="btn flag-fin"></NavLink>
                   </NavItem>
                   <NavItem>
-                  <NavLink to="/lat" className="btn flag-lat"></NavLink>
+                  <NavLink to="/lv" className="btn flag-lat"></NavLink>
                   </NavItem>
                 </Nav>
               </Collapse>
             </Navbar>
-          </div>
-
-          
-         
-
-                 
+          </div>                 
         </div>   
     );
-  }
-  
+  }  
 }
 
 NavbarToggler.propTypes = {

@@ -25,7 +25,7 @@ class App extends Component {
       
       <Tulemas />
       <Tehnikanimekiri className="mt-3"/>
-          <LazyLoad height={20} offset={100} once >
+          <LazyLoad offset={100} once >
 
           <Varasem />
           </LazyLoad>
