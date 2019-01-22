@@ -3,7 +3,7 @@ import React, {
 } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import "./../../Css/App.css";
-import Header from './../Component/Header';
+import HeaderDe from './../Component/ComponentDe/HeaderDe';
 import Tehnikanimekiri from './../Component/Tehnikanimekiri';
 import Tulemas from './../Component/Tulemas';
 import Varasem from './../Component/Varasem';
@@ -17,7 +17,7 @@ class De extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <Header />
+          <HeaderDe />
           <main >
             <Tulemas />
             <Tehnikanimekiri className="mt-3" />

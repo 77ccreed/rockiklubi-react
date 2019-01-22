@@ -3,13 +3,14 @@ import React, {
 } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import "./../../Css/App.css";
-import Header from './../Component/Header';
+import Header from './../Component/ComponentEn/HeaderEn';
 import Tehnikanimekiri from './../Component/Tehnikanimekiri';
 import Tulemas from './../Component/Tulemas';
 import Varasem from './../Component/Varasem';
 import Map from './../Component/Map';
 import Footer from './../Component/Footer';
 import LazyLoad from 'react-lazyload';
+import HeaderEn from './../Component/ComponentEn/HeaderEn';
 
 
 class En extends Component {
@@ -17,7 +18,7 @@ class En extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <Header />
+          <HeaderEn />
           <main >
             <Tulemas />
             <Tehnikanimekiri className="mt-3" />
