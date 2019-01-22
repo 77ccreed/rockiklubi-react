@@ -6,7 +6,7 @@ import "./../../Css/Footer.css";
 class Footer extends Component {
   render() {
     return (
-      <footer className="page-footer font-small pt-4 mt-4">
+      <footer className="page-footer font-small pt-4">
 
 
         <div className="container text-center text-md-left">

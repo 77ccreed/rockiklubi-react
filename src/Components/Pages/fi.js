@@ -8,8 +8,6 @@ import HeaderFi from './../Component/ComponentFi/FeaderFi';
 import Tehnikanimekiri from './../Component/Tehnikanimekiri';
 import Tulemas from './../Component/Tulemas';
 import Varasem from './../Component/Varasem';
-import Map from './../Component/Map';
-import Footer from './../Component/Footer';
 import LazyLoad from 'react-lazyload';
 
 
@@ -32,8 +30,6 @@ class Fi extends Component {
               <Varasem />
             </LazyLoad>
           </main>
-          <Map />
-          <Footer />
         </div>
       </BrowserRouter>
     );

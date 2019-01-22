@@ -7,6 +7,8 @@ import Fi from './../Pages/fi';
 import Lv from './../Pages/lv';
 import NotFoundPage from './../Component/NotFoundPage';
 import Navbar from './../Component/Navbar';
+import Map from './../Component/Map';
+import Footer from './../Component/Footer';
 import "./../../Css/App.css";
 
 
@@ -22,6 +24,8 @@ const AppRouter = () => (
         <Route path="/lv" component={Lv} />
         <Route component={NotFoundPage} />
       </Switch>
+      <Map />
+      <Footer />
     </div>
   </BrowserRouter>
 );

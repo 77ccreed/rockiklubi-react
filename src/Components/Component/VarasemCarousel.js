@@ -7,7 +7,6 @@ import {
 import PropTypes from 'prop-types';
 
 import plakat1 from './../../Images/PlakatVarasem/01_05_2010.jpg';
-import plakat2 from './../../Images/PlakatVarasem/01_05_2011.jpg';
 import plakat3 from './../../Images/PlakatVarasem/01_10_2011.jpg';
 import plakat4 from './../../Images/PlakatVarasem/01_11_2013.jpg';
 import plakat5 from './../../Images/PlakatVarasem/02_03_2012.jpg';
@@ -119,10 +118,6 @@ const items = [
   {
     src: plakat1,
     altText: 'Slide 1',
-  },
-  {
-    src: plakat2,
-    altText: 'Slide 2',
   },
   {
     src: plakat3,
@@ -597,7 +592,6 @@ class VarasemUritused extends Component {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} />
-
         </CarouselItem>
       );
     });

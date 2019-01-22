@@ -4,15 +4,18 @@ import VarasemCarousel from './VarasemCarousel';
 import Pilt from './Pilt';
 import "./../../Css/Carousel-bg.css";
 import PropTypes from 'prop-types';
+import LazyLoad from 'react-lazyload';
 
 const Varasem = (props) => {
   return (
     <div>
-      <Jumbotron fluid className="carousel-bg">
+      <Jumbotron fluid className="carousel-bg mb-0">
         <Container fluid>
           <div className="row">
             <div className="col-lg-6">
+              <LazyLoad height={'100%'} once>
               <VarasemCarousel />
+              </LazyLoad>
             </div>
 
             <div className="col-lg-4 offset-lg-1 text-left align-self-center mt-4">
