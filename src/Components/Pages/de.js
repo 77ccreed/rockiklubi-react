@@ -2,6 +2,7 @@ import React, {
   Component
 } from 'react';
 import { BrowserRouter } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import "./../../Css/App.css";
 import HeaderDe from './../Component/ComponentDe/HeaderDe';
 import Tehnikanimekiri from './../Component/Tehnikanimekiri';
@@ -17,6 +18,11 @@ class De extends Component {
     return (
       <BrowserRouter>
         <div className="App">
+          <Helmet>
+            <title>
+              Organisation von Veranstaltungen in Valga. Tonausrüstung, Studio- und Raummiete.</title>
+            <meta name="description" content="Todos on steroid!" />
+          </Helmet>
           <HeaderDe />
           <main >
             <Tulemas />

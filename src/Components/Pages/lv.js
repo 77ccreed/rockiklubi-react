@@ -2,6 +2,7 @@ import React, {
   Component
 } from 'react';
 import { BrowserRouter } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import "./../../Css/App.css";
 import HeaderLv from './../Component/ComponentLv/HeaderLv';
 import Tehnikanimekiri from './../Component/Tehnikanimekiri';
@@ -17,6 +18,11 @@ class Lv extends Component {
     return (
       <BrowserRouter>
         <div className="App">
+          <Helmet>
+            <title>
+              Notikumu organizēšana Valgā. Skaņas iekārtas, studijas un istabu noma.</title>
+            <meta name="description" content="Todos on steroid!" />
+          </Helmet>
           <HeaderLv />
           <main >
             <Tulemas />

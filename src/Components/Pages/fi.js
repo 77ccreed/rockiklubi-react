@@ -2,6 +2,7 @@ import React, {
   Component
 } from 'react';
 import { BrowserRouter } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import "./../../Css/App.css";
 import HeaderFi from './../Component/ComponentFi/FeaderFi';
 import Tehnikanimekiri from './../Component/Tehnikanimekiri';
@@ -17,6 +18,11 @@ class Fi extends Component {
     return (
       <BrowserRouter>
         <div className="App">
+          <Helmet>
+            <title>
+              Tapahtumien järjestäminen Valgassa. Äänilaitteet, studio- ja huonevuokraus.</title>
+            <meta name="description" content="Todos on steroid!" />
+          </Helmet>
           <HeaderFi />
           <main >
             <Tulemas />
