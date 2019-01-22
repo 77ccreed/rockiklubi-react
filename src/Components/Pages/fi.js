@@ -28,7 +28,7 @@ class Fi extends Component {
           <main >
             <Tulemas />
             <Tehnikanimekiri className="mt-3" />
-            <LazyLoad offset={100} once >
+            <LazyLoad height={"100vh"} offset={100} once >
               <Varasem />
             </LazyLoad>
           </main>
