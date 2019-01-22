@@ -19,6 +19,7 @@ class Fi extends Component {
       <BrowserRouter>
         <div className="App">
           <Helmet>
+            <html lang="fi" />
             <title>
               Tapahtumien järjestäminen Valgassa. Äänilaitteet, studio- ja huonevuokraus.</title>
             <meta name="description" content="Todos on steroid!" />

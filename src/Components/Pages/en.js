@@ -19,6 +19,7 @@ class En extends Component {
       <BrowserRouter>
         <div className="App">
           <Helmet>
+            <html lang="en" />
             <title>
               Organization of events in Valga. Sound equipment, studio and room rental.</title>
             <meta name="description" content="Todos on steroid!" />

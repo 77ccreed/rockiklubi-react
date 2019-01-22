@@ -20,6 +20,7 @@ class Et extends Component {
       <BrowserRouter>
         <div className="App">
           <Helmet>
+            <html lang="et" />
             <title>Ürituste korraldamine Valgas. Helitehnika, stuudio ja ruumide rent.</title>
             <meta name="description" content="Todos on steroid!" />
           </Helmet>

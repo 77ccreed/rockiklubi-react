@@ -19,6 +19,7 @@ class Lv extends Component {
       <BrowserRouter>
         <div className="App">
           <Helmet>
+            <html lang="lv" />
             <title>
               Notikumu organizēšana Valgā. Skaņas iekārtas, studijas un istabu noma.</title>
             <meta name="description" content="Todos on steroid!" />

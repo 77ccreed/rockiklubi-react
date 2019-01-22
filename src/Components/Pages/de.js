@@ -19,6 +19,7 @@ class De extends Component {
       <BrowserRouter>
         <div className="App">
           <Helmet>
+            <html lang="de" />
             <title>
               Organisation von Veranstaltungen in Valga. Tonausrüstung, Studio- und Raummiete.</title>
             <meta name="description" content="Todos on steroid!" />
