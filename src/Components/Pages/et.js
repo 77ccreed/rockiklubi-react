@@ -1,7 +1,7 @@
 import React, {
   Component
 } from 'react';
-import { BrowserRouter, Route, Switch, Link, NavLink } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import "./../../Css/App.css";
 import Header from './../Component/Header';
 import Tehnikanimekiri from './../Component/Tehnikanimekiri';
@@ -10,7 +10,6 @@ import Varasem from './../Component/Varasem';
 import Map from './../Component/Map';
 import Footer from './../Component/Footer';
 import LazyLoad from 'react-lazyload';
-
 
 
 class Et extends Component {
