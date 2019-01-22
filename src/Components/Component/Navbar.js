@@ -14,19 +14,19 @@ export default class HamburgerMenu extends React.Component {
               <NavbarBrand className="mr-auto HamburgerMenu vrk font-weight-bold ml-md-5"> VRK</NavbarBrand>
                 <Nav navbar className="d-flex flex-row" >
                   <NavItem>
-                  <NavLink to="/" exact={true} className="btn flag-et"></NavLink>
+                  <NavLink to="/" exact={true} className="btn flag-et m-1"></NavLink>
                   </NavItem>
                   <NavItem>
-                  <NavLink to="/en" className="btn flag-en"></NavLink>
+                <NavLink to="/en" className="btn flag-en m-1"></NavLink>
                   </NavItem>
                   <NavItem>
-                  <NavLink to="/de" className="btn flag-ge"></NavLink>
+                <NavLink to="/de" className="btn flag-ge m-1"></NavLink>
                   </NavItem>
                   <NavItem>
-                  <NavLink to="/fi" className="btn flag-fin"></NavLink>
+                <NavLink to="/fi" className="btn flag-fin m-1"></NavLink>
                   </NavItem>
                   <NavItem>
-                  <NavLink to="/lv" className="btn flag-lat"></NavLink>
+                <NavLink to="/lv" className="btn flag-lat m-1"></NavLink>
                   </NavItem>
                 </Nav>
             </Navbar>
