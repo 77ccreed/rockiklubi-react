@@ -5,8 +5,8 @@ import { BrowserRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import "./../../Css/App.css";
 import HeaderLv from './../Component/ComponentLv/HeaderLv';
-import Tehnikanimekiri from './../Component/Tehnikanimekiri';
-import Tulemas from './../Component/Tulemas';
+import TehnikanimekiriLv from './../Component/ComponentLv/TehnikanimekiriLv';
+import TulemasLv from './../Component/ComponentLv/TulemasLv';
 import Varasem from './../Component/Varasem';
 import LazyLoad from 'react-lazyload';
 
@@ -24,8 +24,8 @@ class Lv extends Component {
           </Helmet>
           <HeaderLv />
           <main >
-            <Tulemas />
-            <Tehnikanimekiri className="mt-3" />
+            <TulemasLv />
+            <TehnikanimekiriLv className="mt-3" />
             <LazyLoad height={"100vh"} offset={100} once >
               <Varasem />
             </LazyLoad>

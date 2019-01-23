@@ -4,9 +4,9 @@ import React, {
 import { BrowserRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import "./../../Css/App.css";
-import HeaderFi from './../Component/ComponentFi/FeaderFi';
-import Tehnikanimekiri from './../Component/Tehnikanimekiri';
-import Tulemas from './../Component/Tulemas';
+import HeaderFi from '../Component/ComponentFi/HeaderFi';
+import TehnikanimekiriFi from './../Component/ComponentFi/TehnikanimekiriFi';
+import TulemasFi from './../Component/ComponentFi/TulemasFi';
 import Varasem from './../Component/Varasem';
 import LazyLoad from 'react-lazyload';
 
@@ -24,8 +24,8 @@ class Fi extends Component {
           </Helmet>
           <HeaderFi />
           <main >
-            <Tulemas />
-            <Tehnikanimekiri className="mt-3" />
+            <TulemasFi />
+            <TehnikanimekiriFi className="mt-3" />
             <LazyLoad height={"100vh"} offset={100} once >
               <Varasem />
             </LazyLoad>

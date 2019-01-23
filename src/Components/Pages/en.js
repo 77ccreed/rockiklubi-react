@@ -5,8 +5,8 @@ import { BrowserRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import "./../../Css/App.css";
 import HeaderEn from './../Component/ComponentEn/HeaderEn';
-import Tehnikanimekiri from './../Component/Tehnikanimekiri';
-import Tulemas from './../Component/Tulemas';
+import TulemasEn from './../Component/ComponentEn/TulemasEn';
+import TehnikanimekiriEn from './../Component/ComponentEn/TehnikanimekiriEn';
 import Varasem from './../Component/Varasem';
 import LazyLoad from 'react-lazyload';
 
@@ -24,8 +24,8 @@ class En extends Component {
           </Helmet>
           <HeaderEn />
           <main >
-            <Tulemas />
-            <Tehnikanimekiri className="mt-3" />
+            <TulemasEn />
+            <TehnikanimekiriEn className="mt-3" />
             <LazyLoad height={"100vh"} offset={100} once >
               <Varasem />
             </LazyLoad>
