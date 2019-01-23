@@ -15,7 +15,6 @@ h1 {
        font-size: 3em;
        font-weight: 600;
        line-height: 5px;
-      animation: yourAnimation 0.5s 1 0s ease-in;
 }
 
  
@@ -23,7 +22,6 @@ h1 {
 h6 {
      font-size: 1.2em;
      font-weight: 200;
-     animation: yourAnimation 0.8s 1 0s ease-in;
 }
 
 .Header-text2 {

@@ -14,11 +14,7 @@ class Footer extends Component {
 
           <div className="row">
 
-
-
-            <div className="col-md-10  mx-auto my-md-4 my-0 mt-4 mb-1 d-flex flex-wrap align-content-center">
-
-                
+            <div className="col-md-10  mx-auto my-md-4 my-0 mt-4 mb-1 d-flex flex-wrap align-content-center">             
                    
                       <p className="mr-5">
                         <i className="fa fa-home"></i> Valga, Aia 19, 68203 </p>
