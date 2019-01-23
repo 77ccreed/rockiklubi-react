@@ -7,8 +7,7 @@ import "./../../Css/App.css";
 import HeaderLv from './../Component/ComponentLv/HeaderLv';
 import TehnikanimekiriLv from './../Component/ComponentLv/TehnikanimekiriLv';
 import TulemasLv from './../Component/ComponentLv/TulemasLv';
-import Varasem from './../Component/Varasem';
-import LazyLoad from 'react-lazyload';
+import VarasemLv from './../Component/ComponentLv/VarasemLv';
 
 
 class Lv extends Component {
@@ -26,9 +25,7 @@ class Lv extends Component {
           <main >
             <TulemasLv />
             <TehnikanimekiriLv className="mt-3" />
-            <LazyLoad height={"100vh"} offset={100} once >
-              <Varasem />
-            </LazyLoad>
+              <VarasemLv />
           </main>
         </div>
       </BrowserRouter>

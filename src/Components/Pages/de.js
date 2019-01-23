@@ -7,8 +7,7 @@ import "./../../Css/App.css";
 import HeaderDe from './../Component/ComponentDe/HeaderDe';
 import TehnikanimekiriDe from './../Component/ComponentDe/TehnikanimekiriDe';
 import TulemasDe from './../Component/ComponentDe/TulemasDe';
-import Varasem from './../Component/Varasem';
-import LazyLoad from 'react-lazyload';
+import VarasemDe from './../Component/ComponentDe/VarasemDe';
 
 
 class De extends Component {
@@ -26,9 +25,7 @@ class De extends Component {
           <main >
             <TulemasDe />
             <TehnikanimekiriDe className="mt-3" />
-            <LazyLoad height={"100vh"} offset={100} once >
-              <Varasem />
-            </LazyLoad>
+              <VarasemDe />
           </main>
         </div>
       </BrowserRouter>

@@ -7,8 +7,7 @@ import "./../../Css/App.css";
 import HeaderFi from '../Component/ComponentFi/HeaderFi';
 import TehnikanimekiriFi from './../Component/ComponentFi/TehnikanimekiriFi';
 import TulemasFi from './../Component/ComponentFi/TulemasFi';
-import Varasem from './../Component/Varasem';
-import LazyLoad from 'react-lazyload';
+import VarasemFi from './../Component/ComponentFi/VarasemFi';
 
 
 class Fi extends Component {
@@ -26,9 +25,7 @@ class Fi extends Component {
           <main >
             <TulemasFi />
             <TehnikanimekiriFi className="mt-3" />
-            <LazyLoad height={"100vh"} offset={100} once >
-              <Varasem />
-            </LazyLoad>
+              <VarasemFi />
           </main>
         </div>
       </BrowserRouter>
