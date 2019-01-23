@@ -15,51 +15,37 @@ class Footer extends Component {
           <div className="row">
 
 
-            <div className="col-md-4 col-lg-5 mr-auto my-md-4 my-0 mt-4 mb-1">
-              <h5 className="font-weight-bold mb-4">Valga Rockiklubi</h5>
-              <p>Aastast 2002 - vanim rockiklubi Eestis. Omalaadne alternatiivklubi, kus propageeritakse elavat muusikat nii kodu
-                kui välismaalt. "Valga Rockiklubi - koht, mis rockib!". See on koht, mis ei jäta külmaks! Klubi areneb kogu
-              aeg, et pakkuda paremat elamust nii publikule kui esinejatele.</p>
 
-            </div>
+            <div className="col-md-10  mx-auto my-md-4 my-0 mt-4 mb-1 d-flex flex-wrap align-content-center">
 
-
-            <div className="col-md-3 offset-md-2 mx-auto my-md-4 my-0 mt-4 mb-1">
-                  <h5 className="font-weight-bold mb-4">Aadress</h5>
-
-                  <ul className="list-unstyled">
-                    <li>
-                      <p>
+                
+                   
+                      <p className="mr-5">
                         <i className="fa fa-home mr-3"></i> Valga, Aia 19, 68203 </p>
-                    </li>
-                    <li>
-                      <p>
+                   
+                  
+              <p className="mr-5">
                         <i className="fa fa-envelope mr-3"></i> ivo@rockiklubi.ee</p>
-                    </li>
-                    <li>
-                      <p>
+                    
+                   
+              <p className="mr-5">
                         <i className="fa fa-phone mr-3"></i> +(372) 521 0882</p>
-                    </li>
-                    <li>
-                  <p><i className="fas fa-money-check mr-3"></i> Arvelduskonto:</p>
-                      <p>AS SEB Pank</p>
-                      <p>a/a 10220025716013</p>
-                    </li>
-                  </ul>
+                  
+                   
+              <p className="mr-5"><i className="fas fa-money-check mr-3"></i> SEB Pank a/a 10220025716013</p>
+                     
+                    
+                
 
                 </div>
 
-                  <div className="col-md-3 col-lg-2 mx-auto my-4 row text-center">
+            <div className="col-md-2 mx-auto my-4 text-center d-flex flex-wrap align-content-center">
 
-                    <h5 className="font-weight-bold mb-4 col-12">Vaata lisaks!</h5>
-
-              <a href="https://www.facebook.com/Valga-Rockiklubi-141376155934174/" target="_blank" className="col-12 p-1" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/Valga-Rockiklubi-141376155934174/" target="_blank" className="col-12 p-1 m-2" rel="noopener noreferrer">
               FaceBook
                     </a>
 
-             
-
-              <a href="https://github.com/77ccreed/valga-rokiklubi" target="_blank" className="col-12 p-1" rel="noopener noreferrer">
+              <a href="https://github.com/77ccreed/valga-rokiklubi" target="_blank" className="col-12 p-1 m-2" rel="noopener noreferrer">
                      GitHub
                     </a>
 
