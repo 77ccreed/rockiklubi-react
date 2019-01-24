@@ -117,427 +117,427 @@ import plakat110 from './../../Images/PlakatVarasem/tourmentandfun.jpg';
 const items = [
   {
     src: plakat1,
-    altText: 'Slide 1',
+    altText: '01.05.2010',
   },
   {
     src: plakat3,
-    altText: 'Slide 3',
+    altText: '01.10.2011',
   },
     {
     src: plakat4,
-    altText: 'Slide 1',
+    altText: '01.11.2013',
   },
   {
     src: plakat5,
-    altText: 'Slide 1',
+    altText: '02.03.2012',
   },
   {
     src: plakat6,
-    altText: 'Slide 1',
+    altText: '02.04.2011',
   },
   {
     src: plakat7,
-    altText: 'Slide 1',
+    altText: '02.09.2011',
   },
   {
     src: plakat8,
-    altText: 'Slide 1',
+    altText: '02.10.2015',
   },
   {
     src: plakat9,
-    altText: 'Slide 1',
+    altText: '02.12.2011',
   },
   {
     src: plakat10,
-    altText: 'Slide 1',
+    altText: '02.23.2018',
   },
   {
     src: plakat11,
-    altText: 'Slide 1',
+    altText: '03.03.2018',
   },
   {
     src: plakat12,
-    altText: 'Slide 1',
+    altText: '03.09.2010',
   },
   {
     src: plakat13,
-    altText: 'Slide 1',
+    altText: '04.01.2014',
   },
   {
     src: plakat14,
-    altText: 'Slide 1',
+    altText: '04.03.2017',
   },
   {
     src: plakat15,
-    altText: 'Slide 1',
+    altText: '04.06.2010',
   },
   {
     src: plakat16,
-    altText: 'Slide 1',
+    altText: '04.12.2010',
   },
   {
     src: plakat17,
-    altText: 'Slide 1',
+    altText: '04.12.2010',
   },
   {
     src: plakat18,
-    altText: 'Slide 1',
+    altText: '05.02.2010',
   },
   {
     src: plakat19,
-    altText: 'Slide 1',
+    altText: '05.02.2011',
   },
   {
     src: plakat20,
-    altText: 'Slide 2',
+    altText: '05.09.2015',
   },
   {
     src: plakat21,
-    altText: 'Slide 2',
+    altText: '05.10.2012',
   },
   {
     src: plakat22,
-    altText: 'Slide 2',
+    altText: '05.11.2010',
   },
   {
     src: plakat23,
-    altText: 'Slide 2',
+    altText: '05.11.2016',
   },
   {
     src: plakat24,
-    altText: 'Slide 2',
+    altText: '05.12.2015',
   },
   {
     src: plakat25,
-    altText: 'Slide 2',
+    altText: '06.01.2012',
   },
   {
     src: plakat26,
-    altText: 'Slide 2',
+    altText: '06.05.2016',
   },
   {
     src: plakat27,
-    altText: 'Slide 2',
+    altText: '06.11.2015',
   },
   {
     src: plakat28,
-    altText: 'Slide 2',
+    altText: '06.12.2009',
   },
   {
     src: plakat29,
-    altText: 'Slide 2',
+    altText: '06.12.2013',
   },
   {
     src: plakat30,
-    altText: 'Slide 3',
+    altText: '06.12.2014',
   },
   {
     src: plakat31,
-    altText: 'Slide 3',
+    altText: '07.02.2009',
   },
   {
     src: plakat32,
-    altText: 'Slide 3',
+    altText: '07.04.2018',
   },
   {
     src: plakat33,
-    altText: 'Slide 3',
+    altText: '07.09.2018',
   },
   {
     src: plakat34,
-    altText: 'Slide 3',
+    altText: '08.09.2017',
   },
   {
     src: plakat35,
-    altText: 'Slide 3',
+    altText: '08.10.2011',
   },
   {
     src: plakat36,
-    altText: 'Slide 3',
+    altText: '08.11.2014',
   },
   {
     src: plakat37,
-    altText: 'Slide 3',
+    altText: '09.04.2010',
   },
   {
     src: plakat38,
-    altText: 'Slide 3',
+    altText: '09.06.2012',
   },
   {
     src: plakat39,
-    altText: 'Slide 3',
+    altText: '09.09.2016',
   },
   {
     src: plakat40,
-    altText: 'Slide 1',
+    altText: '09.10.2009',
   },
   {
     src: plakat41,
-    altText: 'Slide 1',
+    altText: '09.11.2018',
   },
   {
     src: plakat42,
-    altText: 'Slide 1',
+    altText: '11.04.2009',
   },
   {
     src: plakat43,
-    altText: 'Slide 1',
+    altText: '11.05.2018',
   },
   {
     src: plakat44,
-    altText: 'Slide 1',
+    altText: '11.09.2009',
   },
   {
     src: plakat45,
-    altText: 'Slide 1',
+    altText: '12.03.2010',
   },
   {
     src: plakat46,
-    altText: 'Slide 1',
+    altText: '12.03.2011',
   },
   {
     src: plakat47,
-    altText: 'Slide 1',
+    altText: '12.05.2012',
   },
   {
     src: plakat48,
-    altText: 'Slide 1',
+    altText: '12.05.2017',
   },
   {
     src: plakat49,
-    altText: 'Slide 1',
+    altText: '13.04.2013',
   },
   {
     src: plakat50,
-    altText: 'Slide 1',
+    altText: '13.10.2017',
   },
   {
     src: plakat51,
-    altText: 'Slide 1',
+    altText: '13.11.2009',
   },
   {
     src: plakat52,
-    altText: 'Slide 1',
+    altText: '14.04.2017',
   },
   {
     src: plakat53,
-    altText: 'Slide 1',
+    altText: '14.05.2010',
   },
   {
     src: plakat54,
-    altText: 'Slide 1',
+    altText: '14.05.2011',
   },
   {
     src: plakat55,
-    altText: 'Slide 1',
+    altText: '14.05.2016',
   },
   {
     src: plakat56,
-    altText: 'Slide 1',
+    altText: '15.04.2016',
   },
   {
     src: plakat57,
-    altText: 'Slide 1',
+    altText: '16.01.2010',
   },
   {
     src: plakat58,
-    altText: 'Slide 1',
+    altText: '16.05.2009',
   },
   {
     src: plakat59,
-    altText: 'Slide 1',
+    altText: '16.05.2014',
   },
   {
     src: plakat60,
-    altText: 'Slide 1',
+    altText: '16.08.2013',
   },
   {
     src: plakat61,
-    altText: 'Slide 1',
+    altText: '17.02.2017',
   },
   {
     src: plakat62,
-    altText: 'Slide 1',
+    altText: '17.04.2015',
   },
   {
     src: plakat63,
-    altText: 'Slide 1',
+    altText: '17.08.2012',
   },
   {
     src: plakat64,
-    altText: 'Slide 1',
+    altText: '17.10.2009',
   },
   {
     src: plakat65,
-    altText: 'Slide 1',
+    altText: '18.03.2016',
   },
   {
     src: plakat66,
-    altText: 'Slide 1',
+    altText: '18.09.2010',
   },
   {
     src: plakat67,
-    altText: 'Slide 1',
+    altText: '19.02.2010',
   },
   {
     src: plakat68,
-    altText: 'Slide 1',
+    altText: '19.03.2011',
   },
   {
     src: plakat69,
-    altText: 'Slide 1',
+    altText: '20.01.2017',
   },
   {
     src: plakat70,
-    altText: 'Slide 1',
+    altText: '20.02.2009',
   },
   {
     src: plakat71,
-    altText: 'Slide 1',
+    altText: '20.03.2009',
   },
   {
     src: plakat72,
-    altText: 'Slide 1',
+    altText: '20.11.2010',
   },
   {
     src: plakat73,
-    altText: 'Slide 1',
+    altText: '21.01.2011',
   },
   {
     src: plakat74,
-    altText: 'Slide 1',
+    altText: '21.01.2012',
   },
   {
     src: plakat75,
-    altText: 'Slide 1',
+    altText: '21.04.2012',
   },
   {
     src: plakat76,
-    altText: 'Slide 1',
+    altText: '21.05.2011',
   },
   {
     src: plakat77,
-    altText: 'Slide 1',
+    altText: '21.09.2013',
   },
   {
     src: plakat78,
-    altText: 'Slide 1',
+    altText: '22.08.2014',
   },
   {
     src: plakat79,
-    altText: 'Slide 1',
+    altText: '23.04.2011',
   },
   {
     src: plakat80,
-    altText: 'Slide 1',
+    altText: '23.07.2009',
   },
   {
     src: plakat81,
-    altText: 'Slide 1',
+    altText: '23.09.2011',
   },
   {
     src: plakat82,
-    altText: 'Slide 1',
+    altText: '24.05.2013',
   },
   {
     src: plakat83,
-    altText: 'Slide 1',
+    altText: '05.04.2009',
   },
   {
     src: plakat84,
-    altText: 'Slide 1',
+    altText: '25.09.2009',
   },
   {
     src: plakat85,
-    altText: 'Slide 1',
+    altText: '26.02.2010',
   },
   {
     src: plakat86,
-    altText: 'Slide 1',
+    altText: '26.02.2011',
   },
   {
     src: plakat87,
-    altText: 'Slide 1',
+    altText: '26.03.2010',
   },
   {
     src: plakat88,
-    altText: 'Slide 1',
+    altText: '26.03.2016',
   },
   {
     src: plakat89,
-    altText: 'Slide 1',
+    altText: '27.11.2010',
   },
   {
     src: plakat90,
-    altText: 'Slide 1',
+    altText: '28.03.2009',
   },
   {
     src: plakat93,
-    altText: 'Slide 1',
+    altText: '28.10.2011',
   },
   {
     src: plakat94,
-    altText: 'Slide 1',
+    altText: '28.10.2017',
   },
   {
     src: plakat95,
-    altText: 'Slide 1',
+    altText: '28.11.2009',
   },
   {
     src: plakat96,
-    altText: 'Slide 1',
+    altText: '29.05.2009',
   },
   {
     src: plakat97,
-    altText: 'Slide 1',
+    altText: '29.05.2010',
   },
   {
     src: plakat98,
-    altText: 'Slide 1',
+    altText: '30.03.2018',
   },
   {
     src: plakat99,
-    altText: 'Slide 1',
+    altText: '30.06.2012',
   },
   {
     src: plakat100,
-    altText: 'Slide 1',
+    altText: '30.10.2010',
   },
   {
     src: plakat101,
-    altText: 'Slide 1',
+    altText: '31.01.2009',
   },
   {
     src: plakat102,
-    altText: 'Slide 1',
+    altText: 'Band Tour 2010',
   },
   {
     src: plakat103,
-    altText: 'Slide 1',
+    altText: 'Band Tour 2011',
   },
   {
     src: plakat104,
-    altText: 'Slide 1',
+    altText: 'Noor-rock 2011',
   },
   {
     src: plakat105,
-    altText: 'Slide 1',
+    altText: 'Noor-rock',
   },
   {
     src: plakat106,
-    altText: 'Slide 1',
+    altText: 'Band Tour 2009',
   },
   {
     src: plakat107,
-    altText: 'Slide 1',
+    altText: 'Tournament & Fun',
   },
   {
     src: plakat108,
-    altText: 'Slide 1',
+    altText: 'Slide 12',
   },
   {
     src: plakat109,
-    altText: 'Slide 1',
+    altText: 'Slide 123',
   },
   {
     src: plakat110,

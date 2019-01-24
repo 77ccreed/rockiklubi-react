@@ -16,19 +16,19 @@ class Footer extends Component {
 
             <div className="col-md-10  mx-auto my-md-4 my-0 mt-4 mb-1 d-flex flex-wrap align-content-center">             
                    
-                      <p className="mr-5">
+              <p className="mr-5 ml-2">
                         <i className="fa fa-home"></i> Valga, Aia 19, 68203 </p>
                    
                   
-              <p className="mr-5">
+              <p className="mr-5 ml-2">
                         <i className="fa fa-envelope"></i> ivo@rockiklubi.ee</p>
                     
                    
-              <p className="mr-5">
+              <p className="mr-5 ml-2">
                         <i className="fa fa-phone"></i> +(372) 521 0882</p>
                   
                    
-              <p className="mr-5"><i className="fas fa-money-check"></i> SEB Pank a/a 10220025716013</p>
+              <p className="mr-5 ml-2"><i className="fas fa-money-check"></i> SEB Pank a/a 10220025716013</p>
                      
                     
                 
