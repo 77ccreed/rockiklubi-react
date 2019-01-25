@@ -45,7 +45,7 @@ import Fade from 'react-reveal/Fade';
                 </Fade>
               </div>
 
-              <div className="col-lg-6 offset-lg-1 text-left text align-self-center mt-5">
+              <div className="col-lg-6 offset-lg-1 text-left align-self-center mt-5">
                 <Fade bottom>
                   <h3 className="suurem-pealkiri-hele p-2">Heli- ja valgustehnika, stuudio ja ruumide rent.</h3>
                 </Fade>
