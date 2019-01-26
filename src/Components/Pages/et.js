@@ -10,7 +10,6 @@ import Tulemas from './../Component/Tulemas';
 import Varasem from './../Component/Varasem';
 
 
-
 class Et extends Component {
   render() {
     return (
@@ -18,7 +17,7 @@ class Et extends Component {
         <div className="App">
           <Helmet>
             <html lang="et" />
-            <title>Ürituste korraldamine Valgas. Helitehnika, stuudio ja ruumide rent.</title>
+            <title>Ürituste korraldamine Valgas. Heli-, valgustehnika ja stuudio rent.</title>
             <meta name="description" content="Todos on steroid!" />
           </Helmet>
           <Header />

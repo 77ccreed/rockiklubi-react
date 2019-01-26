@@ -11,9 +11,9 @@ return (
   <Jumbotron fluid className="carousel-bg">
     <Container fluid>
       <div className="row">
-        <div className="col-lg-6 mb-lg-5">
+          <div className="col-lg-6 mb-lg-5 align-self-center">
           <Fade bottom>
-            <h3 className="suurem-pealkiri m-2">Peatselt klubis</h3>
+            <h3 className="suurem-pealkiri m-2">Peatselt tulemas</h3>
           </Fade>
           <Fade bottom>
             <UritusedCarousel />
@@ -22,20 +22,32 @@ return (
 
         <div className="col-md-10 col-lg-5 ml-md-5 ml-lg-1 text-left align-self-center mt-5">
           <Fade bottom>
-            <h3 className="suurem-pealkiri p-2">Jutt ürituste kohta</h3>
+              <h3 className="suurem-pealkiri p-2">Kontserdid vanas linnasaunas.</h3>
           </Fade>
           <Fade bottom>
             <h5 className="väiksem-pealkiri p-2">Natukene pikem jutt - kokkuvõte. Paarkümmend sõna tulevaste ürituste
               ja klubi kohta.</h5>
           </Fade>
-          <Fade bottom>
-            <p className="tekst p-2">Ürituste korraldamine Valgas. Kes on esinejad ja publik? Kuidas kujuneb välja
-              programm? Kustkohast on pärit esinejad.
-              Mitu sündmust aastas toimus? Mis toimub suvel? Mis muusikastiilid? Mis on programmi koostamisel tähtsaim?
-              Kas programmil on mingisugused piirid? Mida teha kui tahaks esineda vms.? Märksõnad, mida võiks kasutada:
-              üritused, Valga, muusika, bändid,
+            <Fade bottom>
+              <p className="tekst p-2">
+                Juba üle viieteistkümne aasta korraldame üritusi Valgas, Aia tänav 19. 
+Omal ajal oli vaja bändi tegemiseks ruume. Peale tegutsemist mitmes erinevas kohas üle linna saime tänu linnavalitsusele 
+võimaluse kasutada vana linnasauna teist korrust. Ajapikku laienedes ja ruume korrastades oleme siia pidama jäänud
             </p>
-          </Fade>
+            </Fade>
+            <Fade bottom>
+              <p className="tekst p-2">
+   Klubi tegeleb muusikaürituste korraldamisega. Pakume klubiliikmetele ja sõpradele kohta kus nautida head seltskonda ja elavat muusikat.
+             Põhiliselt esinevad rock-, metal- ja punkbändid. Programmi koostamisel on esmatähtis  stiilide ühtivus. 
+             Kõige tähtsam on see, et muusika oleks hea, kaasahaarav. 
+            </p>
+            </Fade>
+            <Fade bottom>
+              <p className="tekst p-2">
+        Sügisest kevadeni korraldame klubis keskeltläbi kümme kuni viisteist kontserti aastas. Prooviruumid ja stuudio tegutsevad aastaringselt. 
+        Oleme seotud ka mitmete väliürituste korraldamisega suvel ja teeme koostööd teiste klubide ja MTÜ-dega. 
+            </p>
+            </Fade>
         </div>
       </div>
     </Container>
