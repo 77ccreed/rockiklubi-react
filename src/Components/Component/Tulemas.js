@@ -44,8 +44,8 @@ võimaluse kasutada vana linnasauna teist korrust. Ajapikku laienedes ja ruume k
             </Fade>
             <Fade bottom>
               <p className="tekst p-2">
-        Sügisest kevadeni korraldame klubis keskeltläbi kümme kuni viisteist kontserti aastas. Prooviruumid ja stuudio tegutsevad aastaringselt. 
-        Oleme seotud ka mitmete väliürituste korraldamisega suvel ja teeme koostööd teiste klubide ja MTÜ-dega. 
+       Sügisest kevadeni korraldame klubis keskeltläbi kümme kuni viisteist kontserti aastas. Prooviruumid ja stuudio tegutsevad aastaringselt. 
+         Suvel oleme seotud mitmete väliürituste korraldamisega ja teeme koostööd teiste klubide ja MTÜ-dega. 
             </p>
             </Fade>
         </div>

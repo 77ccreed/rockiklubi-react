@@ -23,7 +23,7 @@ import Fade from 'react-reveal/Fade';
                   <h3 className="m-2 p-2 pt-3 suurem-pealkiri-hele">Tehnika</h3>
                 </Fade>
                 <Fade bottom>
-                  <Pa className="m-2 p-2 " />
+                  <Pa className="m-2 p-2" />
                 </Fade>
                 <Fade bottom>
                   <FohMixer className="m-2 p-2" />
