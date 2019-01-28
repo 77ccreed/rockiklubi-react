@@ -4,14 +4,13 @@ import {
   CarouselItem
 } from 'reactstrap';
 import "./../../Css/Carousel-bg.css";
-import plakat from './../../Images/PlakatTulev/09.11.2018.jpg';
 import PropTypes from 'prop-types';
 
 const items = [
 
 
   {
-    src: plakat ,
+    src: require('./../../Images/PlakatTulev/09.11.2018.jpg') ,
     altText: 'Slide 1',
     caption: 'Slide 1'
   }

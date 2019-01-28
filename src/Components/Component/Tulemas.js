@@ -25,14 +25,12 @@ return (
               <h3 className="suurem-pealkiri p-2">Kontserdid vanas linnasaunas.</h3>
           </Fade>
           <Fade bottom>
-            <h5 className="väiksem-pealkiri p-2">Natukene pikem jutt - kokkuvõte. Paarkümmend sõna tulevaste ürituste
-              ja klubi kohta.</h5>
+              <h5 className="väiksem-pealkiri p-2">Juba üle viieteistkümne aasta korraldame üritusi Valgas, vana linnasauna teisel korrusel, Aia tänav 19.</h5>
           </Fade>
             <Fade bottom>
               <p className="tekst p-2">
-                Juba üle viieteistkümne aasta korraldame üritusi Valgas, Aia tänav 19. 
 Omal ajal oli vaja bändi tegemiseks ruume. Peale tegutsemist mitmes erinevas kohas üle linna saime tänu linnavalitsusele 
-võimaluse kasutada vana linnasauna teist korrust. Ajapikku laienedes ja ruume korrastades oleme siia pidama jäänud
+võimaluse kasutada linnasauna tühjana seisvat teist korrust. Ajapikku laienedes ja ruume korrastades oleme siia pidama jäänud
             </p>
             </Fade>
             <Fade bottom>
