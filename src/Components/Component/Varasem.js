@@ -26,7 +26,7 @@ return (
           </Fade>
           <Fade bottom>
             <h5 className="väiksem-pealkiri p-2">
-Aja jooksul on klubist läbi käinud üle kolmesaja bändi lähemalt ja kaugemalt.
+Aja jooksul on klubist läbi käinud üle kolmesaja bändi Eestist ja kaugemalt.
             </h5>
           </Fade>
             <Fade bottom>
@@ -37,7 +37,7 @@ Zorg, Sybil Vane, Defeatem. Samuti Contra ja Andres Roots on meil üles astunud.
             </Fade>
             <Fade bottom>
               <p className="tekst p-2">
-                Esinejate leidmine ei ole ka liialt keeruline, üldiselt tuntakse meie vastu ikka huvi, sest oleme tegutsenud juba pikka aega ja saavutanud tuntuse. Praegusel ajal teeme keskeltläbi ühe kontserti kuus.
+                Esinejate leidmine ei ole ka liialt keeruline, üldiselt tuntakse meie vastu ikka huvi, sest oleme tegutsenud juba pikka aega ja saavutanud tuntuse kui hea esinemispaik. Praegusel ajal teeme keskeltläbi ühe kontserti kuus.
             </p>
             </Fade>
             <Fade bottom>
