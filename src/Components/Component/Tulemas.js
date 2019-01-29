@@ -29,7 +29,7 @@ return (
           </Fade>
             <Fade bottom>
               <p className="tekst p-2">
-Omal ajal oli vaja bändi tegemiseks ruume. Peale tegutsemist mitmes erinevas kohas üle linna saime tänu linnavalitsusele 
+Omal ajal oli vaja bändi tegemiseks ruume. Peale tegutsemist mitmes erinevas kohas üle linna, saime tänu linnavalitsusele 
 võimaluse kasutada linnasauna tühjana seisvat teist korrust. Ajapikku laienedes ja ruume korrastades oleme siia pidama jäänud
             </p>
             </Fade>

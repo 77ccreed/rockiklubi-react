@@ -14,6 +14,9 @@ const VarasemDe = (props) => {
           <div className="row">
             <div className="col-lg-6">
               <Fade bottom>
+                <h3 className="suurem-pealkiri m-2">Varasem</h3>
+              </Fade>
+              <Fade bottom>
                 <VarasemCarousel />
               </Fade>
             </div>
