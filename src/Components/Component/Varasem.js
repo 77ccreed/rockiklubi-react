@@ -22,21 +22,30 @@ return (
 
         <div className="col-lg-4 offset-lg-1 text-left align-self-center mt-4">
           <Fade bottom>
-            <h3 className="suurem-pealkiri p-2">Jutt toimunud ürituste ja klubi kohta</h3>
+              <h3 className="suurem-pealkiri p-2">Värvikad esinejad ja publik.</h3>
           </Fade>
           <Fade bottom>
-            <h5 className="väiksem-pealkiri p-2">Natukene pikem jutt - kokkuvõte. Paarkümmend sõna klubi ja toimunud
-              ürituste kohta.</h5>
+            <h5 className="väiksem-pealkiri p-2">
+Aja jooksul on klubist läbi käinud üle kolmesaja bändi lähemalt ja kaugemalt.
+            </h5>
           </Fade>
-          <Fade bottom>
-            <p className="tekst p-2">Mis on klubi eesmärk, kuidas sai alguse?
-              Kuidas iseloomustaksite Valga Rockiklubi? Mis asi see on? Kes on esinejad ja publik? Kas korraldate
-              valdavalt ise sündmusi? Kas saate lisaks ka mingil määral toetust omavalitsuselt ja/või riigilt? Kuidas
-              iseloomustaksite 2018. aastat Valga Rockiklubis? Mis on plaanid ja ootused järgnevaks aastaks? Kaua on
-              klubi tegutsenud? Vanim rokiklubi Eestis? Koostöö teiste klubide ja organisatsioonidega. Kuidas saada
-              klubi liikmeks? Palju on esinejaid olnud. Kes on neist tuntumad tänasel päeval jne.?
+            <Fade bottom>
+              <p className="tekst p-2">
+Kui mainida mõnd tuntumat kohalikest Eesti esinejatest siis J.M.K.E., Paha Polly, Kosmikud, No Big Silence, Vennaskond, Pööloy Gläänz, 
+Zorg, Sybil Vane, Defeatem. Samuti Contra ja Andres Roots on meil üles astunud. 
+              </p>
+            </Fade>
+            <Fade bottom>
+              <p className="tekst p-2">
+                Esinejate leidmine ei ole ka liialt keeruline, üldiselt tuntakse meie vastu ikka huvi, sest oleme tegutsenud juba pikka aega ja saavutanud tuntuse. Praegusel ajal teeme keskeltläbi ühe kontserti kuus.
             </p>
-          </Fade>
+            </Fade>
+            <Fade bottom>
+              <p className="tekst p-2">
+              Kontserdid on olnud head, külastajate seas on näha üha rohkem ja rohkem noori. Tundub, et pealekasvu on nii klubi liikmete kui esinejate
+  ja külastajate seas.
+              </p>
+            </Fade>
         </div>
       </div>
     </Container>
