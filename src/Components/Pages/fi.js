@@ -3,6 +3,7 @@ import React, {
 } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import PageProgress from 'react-page-progress';
 import "./../../Css/App.css";
 import HeaderFi from '../Component/ComponentFi/HeaderFi';
 import TehnikanimekiriFi from './../Component/ComponentFi/TehnikanimekiriFi';
@@ -21,6 +22,7 @@ class Fi extends Component {
               Tapahtumien järjestäminen Valgassa. Äänilaitteet, studio- ja huonevuokraus.</title>
             <meta name="description" content="Todos on steroid!" />
           </Helmet>
+          <PageProgress color={'#FCBF49'} />
           <HeaderFi />
           <main >
             <TulemasFi />

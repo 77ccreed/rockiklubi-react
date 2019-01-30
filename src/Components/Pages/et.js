@@ -3,6 +3,7 @@ import React, {
 } from 'react';
 import { Helmet } from 'react-helmet';
 import { BrowserRouter } from 'react-router-dom';
+import PageProgress from 'react-page-progress';
 import "./../../Css/App.css";
 import Header from './../Component/Header';
 import Tehnikanimekiri from './../Component/Tehnikanimekiri';
@@ -20,6 +21,7 @@ class Et extends Component {
             <title>Ürituste korraldamine Valgas. Heli-, valgustehnika ja stuudio rent.</title>
             <meta name="description" content="Todos on steroid!" />
           </Helmet>
+          <PageProgress color={'#FCBF49'} />
           <Header />
           <main >
             <Tulemas />

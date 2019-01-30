@@ -45,13 +45,12 @@ import Fade from 'react-reveal/Fade';
                 </Fade>
               </div>
 
-              <div className="col-lg-6 offset-lg-1 text-left align-self-center mt-5">
+              <div className="col-md-10 col-lg-6 offset-lg-1 ml-md-5 ml-lg-1 text-left align-self-center mt-5">
                 <Fade bottom>
-                  <h3 className="suurem-pealkiri-hele p-2">Heli- ja valgustehnika, stuudio ja ruumide rent.</h3>
+                  <h3 className="suurem-pealkiri-hele p-2">Heli-, valgustehnika, stuudio ja ruumide rent.</h3>
                 </Fade>
                 <Fade bottom>
-                  <h5 className="väiksem-pealkiri-hele p-2">Natukene pikem jutt - kokkuvõte. Paarkümmend sõna stuudio ja
-              tehnika kohta. </h5>
+                  <h5 className="väiksem-pealkiri-hele p-2">VRK Stuudio on Valgas tegutsev stuudio, mis võtab vastu kõiki stiile esindavaid bände. Salvestuse hind on kokkuleppel!</h5>
                 </Fade>
                 <Fade bottom>
                   <p className="tekst-hele p-2">Heli- ja valgustehnika, stuudio ja ruumide rent.
@@ -60,6 +59,15 @@ import Fade from 'react-reveal/Fade';
                     tahaks/oleks vaja veel juurde hankida. Märksõnad, mida võiks kasutada: stuudio, Valga, hinnad, muusika
                     salvestamine, stuudioaegade broneerimine ja stuudio rent, heli- ja valgustehnika
             </p>
+                </Fade>
+                <Fade bottom>
+                  <p className="tekst-hele p-2">
+            </p>
+                </Fade>
+                <Fade bottom>
+                  <p className="tekst-hele p-2">
+                    VRK Stuudio on Valgas tegutsev stuudio, mis võtab vastu kõiki stiile esindavaid bände. Salvestuse hind on kokkuleppel!
+                  </p>
                 </Fade>
               </div>
             </div>

@@ -432,6 +432,19 @@ const items = [
     src: require('./../../Images/PlakatVarasem/tourmentandfun.jpg'),
     altText: 'Tour & Fun',
   }
+  ,
+  {
+    src: require('./../../Images/PlakatVarasem/07_15_2018.jpg'),
+    altText: '07.15.2018',
+  },
+  {
+    src: require('./../../Images/PlakatVarasem/12_01_2019.jpg'),
+    altText: '12.01.2019',
+  },
+  {
+    src: require('./../../Images/PlakatVarasem/01_02_2019.jpg'),
+    altText: '01.02.2019',
+  }
 ];
 
 class VarasemUritused extends Component {

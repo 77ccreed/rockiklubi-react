@@ -3,6 +3,7 @@ import React, {
 } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import PageProgress from 'react-page-progress';
 import "./../../Css/App.css";
 import HeaderLv from './../Component/ComponentLv/HeaderLv';
 import TehnikanimekiriLv from './../Component/ComponentLv/TehnikanimekiriLv';
@@ -21,6 +22,7 @@ class Lv extends Component {
               Notikumu organizēšana Valgā. Skaņas iekārtas, studijas un istabu noma.</title>
             <meta name="description" content="Todos on steroid!" />
           </Helmet>
+          <PageProgress color={'#FCBF49'} />
           <HeaderLv />
           <main >
             <TulemasLv />

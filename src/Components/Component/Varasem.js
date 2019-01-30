@@ -13,20 +13,20 @@ return (
       <div className="row">
         <div className="col-lg-6">
             <Fade bottom>
-              <h3 className="suurem-pealkiri m-2">Varasem</h3>
+              <h3 className="suurem-pealkiri m-2">Varasemad kontsertid</h3>
             </Fade>
           <Fade bottom>
             <VarasemCarousel />
           </Fade>
         </div>
 
-        <div className="col-lg-4 offset-lg-1 text-left align-self-center mt-4">
+          <div className="col-md-10 col-lg-4 offset-lg-1 ml-md-5 ml-lg-1 text-left align-self-center mt-4">
           <Fade bottom>
               <h3 className="suurem-pealkiri p-2">Värvikad esinejad ja publik.</h3>
           </Fade>
           <Fade bottom>
             <h5 className="väiksem-pealkiri p-2">
-Aja jooksul on klubist läbi käinud üle kolmesaja bändi Eestist ja kaugemalt.
+Aja jooksul on klubist läbi käinud üle kolmesaja bändi Eestist, naabermaadest ja kaugemalt.
             </h5>
           </Fade>
             <Fade bottom>
@@ -37,7 +37,7 @@ Zorg, Sybil Vane, Defeatem. Samuti Contra ja Andres Roots on meil üles astunud.
             </Fade>
             <Fade bottom>
               <p className="tekst p-2">
-                Esinejate leidmine ei ole ka liialt keeruline, üldiselt tuntakse meie vastu ikka huvi, sest oleme tegutsenud juba pikka aega ja saavutanud tuntuse kui hea esinemispaik. Praegusel ajal teeme keskeltläbi ühe kontserti kuus.
+                Esinejate leidmine ei ole ka liialt keeruline, üldiselt tuntakse meie vastu ikka huvi, sest oleme tegutsenud juba pikka aega ja saavutanud tuntuse hea esinemispaigana. Praegusel ajal teeme keskeltläbi ühe kontserti kuus.
             </p>
             </Fade>
             <Fade bottom>

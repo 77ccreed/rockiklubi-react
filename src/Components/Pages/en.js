@@ -3,6 +3,7 @@ import React, {
 } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import PageProgress from 'react-page-progress';
 import "./../../Css/App.css";
 import HeaderEn from './../Component/ComponentEn/HeaderEn';
 import TulemasEn from './../Component/ComponentEn/TulemasEn';
@@ -21,6 +22,7 @@ class En extends Component {
               Organization of events in Valga. Sound equipment, studio and room rental.</title>
             <meta name="description" content="Todos on steroid!" />
           </Helmet>
+          <PageProgress color={'#FCBF49'} />
           <HeaderEn />
           <main >
             <TulemasEn />
