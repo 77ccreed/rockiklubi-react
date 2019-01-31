@@ -19,7 +19,7 @@ class Et extends Component {
           <Helmet>
             <html lang="et" />
             <title>Ürituste korraldamine Valgas. Heli-, valgustehnika ja stuudio rent.</title>
-            <meta name="description" content="Todos on steroid!" />
+            <meta name="description" content="" />
           </Helmet>
           <PageProgress color={'#FCBF49'} />
           <Header />

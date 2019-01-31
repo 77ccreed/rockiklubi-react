@@ -31,19 +31,20 @@ Aja jooksul on klubist läbi käinud üle kolmesaja bändi Eestist, naabermaades
           </Fade>
             <Fade bottom>
               <p className="tekst p-2">
-Kui mainida mõnd tuntumat kohalikest Eesti esinejatest siis J.M.K.E., Paha Polly, Kosmikud, No Big Silence, Vennaskond, Pööloy Gläänz, 
-Zorg, Sybil Vane, Defeatem. Samuti Contra ja Andres Roots on meil üles astunud. 
+Kui mainida mõnd tuntumat kohalikest Eesti esinejatest siis J.M.K.E., Paha Polly, Kosmikud,
+ No Big Silence, Vennaskond, Pööloy Gläänz, Zorg, Sybil Vane, Defeatem. Samuti on meil üles astunud Contra ja Andres Roots.
               </p>
             </Fade>
             <Fade bottom>
               <p className="tekst p-2">
-                Esinejate leidmine ei ole ka liialt keeruline, üldiselt tuntakse meie vastu ikka huvi, sest oleme tegutsenud juba pikka aega ja saavutanud tuntuse hea esinemispaigana. Praegusel ajal teeme keskeltläbi ühe kontserti kuus.
+               Esinejate leidmine ei ole ka liialt keeruline, üldiselt tuntakse meie vastu ikka huvi, 
+ sest oleme tegutsenud juba pikka aega ja saavutanud tuntuse meeldiva esinemispaigana. Praegusel ajal teeme keskeltläbi ühe kontserti kuus.
             </p>
             </Fade>
             <Fade bottom>
               <p className="tekst p-2">
-              Kontserdid on olnud head, külastajate seas on näha üha rohkem ja rohkem noori. Tundub, et pealekasvu on nii klubi liikmete kui esinejate
-  ja külastajate seas.
+             Kontserdid on olnud head, külastajate seas on näha üha rohkem ja rohkem noori. Tundub, et pealekasvu on nii klubiliikmete kui esinejate
+   ja külastajate seas.
               </p>
             </Fade>
         </div>
