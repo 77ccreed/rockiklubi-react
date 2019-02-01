@@ -19,7 +19,7 @@ class Et extends Component {
           <Helmet>
             <html lang="et" />
             <title>Ürituste korraldamine Valgas. Heli-, valgustehnika ja stuudio rent.</title>
-            <meta name="description" content="" />
+            <meta name="description" content="Rock-, metal- ja punkkontsertide korraldamine. Tehnika ja stuudio rent. Teeme koostööd teiste klubide ja MTÜ-dega." />
           </Helmet>
           <PageProgress color={'#FCBF49'} />
           <Header />

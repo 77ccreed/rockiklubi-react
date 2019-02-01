@@ -47,12 +47,16 @@ import Fade from 'react-reveal/Fade';
 
               <div className="col-md-10 col-lg-6 offset-lg-1 ml-md-5 ml-lg-1 text-left align-self-center mt-5">
                 <Fade bottom>
-                  <h3 className="suurem-pealkiri-hele p-2">Üritusi korraldame enda valgus- ja helitehnikaga.</h3>
+                  <h3 className="suurem-pealkiri-hele p-2">Korraldame üritusi enda valgus- ja helitehnikaga.</h3>
                 </Fade>
                 <Fade bottom>
                   <h5 className="väiksem-pealkiri-hele p-2">Oleme valmis tehnikat välja rentima ka väljaspool maja aset leidvate sündmuste jaoks. Samuti on meil sisustatud stuudio.</h5>
                 </Fade>
                 <Fade bottom>
+                  <h5 className="väiksem-pealkiri-hele p-2"> VRK Stuudio võtab vastu kõiki stiile esindavaid bände. Salvestuse hind on kokkuleppel.</h5>
+                </Fade>
+ 
+               {/*<Fade bottom>
                   <p className="tekst-hele p-2">Heli- ja valgustehnika, stuudio ja ruumide rent.
                     Kellele mõeldud ja mis on hinnad. Kas tehnikat saab rentida mujal kasutamiseks ja mis on suuremad
                     üritused, kus seda on kasutatud. Mis on tehnika kvaliteet. Kuidas see on aja jooksul kokku saadud ja mida
@@ -68,7 +72,7 @@ import Fade from 'react-reveal/Fade';
                   <p className="tekst-hele p-2">
                    VRK Stuudio võtab vastu kõiki stiile esindavaid bände. Salvestuse hind on kokkuleppel.
                   </p>
-                </Fade>
+                </Fade>*/}
               </div>
             </div>
           </Container>
