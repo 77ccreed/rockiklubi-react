@@ -21,7 +21,7 @@ class En extends Component {
               Organization of events in Valga. Sound equipment, studio and room rental.</title>
             <meta name="description" content="Todos on steroid!" />
           </Helmet>
-          <PageProgress color={'#FCBF49'} />
+          <PageProgress color={'#F2BB05'} />
           <main >
             <TulemasEn />
             <TehnikanimekiriEn className="mt-3" />

@@ -21,7 +21,7 @@ class De extends Component {
               Organisation von Veranstaltungen in Valga. Tonausrüstung, Studio- und Raummiete.</title>
             <meta name="description" content="Todos on steroid!" />
           </Helmet>
-          <PageProgress color={'#FCBF49'} />
+          <PageProgress color={'#F2BB05'} />
           <main >
             <TulemasDe />
             <TehnikanimekiriDe className="mt-3" />

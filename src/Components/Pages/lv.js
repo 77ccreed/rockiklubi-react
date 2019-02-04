@@ -21,7 +21,7 @@ class Lv extends Component {
               Notikumu organizēšana Valgā. Skaņas iekārtas, studijas un istabu noma.</title>
             <meta name="description" content="Todos on steroid!" />
           </Helmet>
-          <PageProgress color={'#FCBF49'} />
+          <PageProgress color={'#F2BB05'} />
           <main >
             <TulemasLv />
             <TehnikanimekiriLv className="mt-3" />

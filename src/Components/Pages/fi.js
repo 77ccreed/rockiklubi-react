@@ -21,7 +21,7 @@ class Fi extends Component {
               Tapahtumien järjestäminen Valgassa. Äänilaitteet, studio- ja huonevuokraus.</title>
             <meta name="description" content="Todos on steroid!" />
           </Helmet>
-          <PageProgress color={'#FCBF49'} />
+          <PageProgress color={'#F2BB05'} />
           <main >
             <TulemasFi />
             <TehnikanimekiriFi className="mt-3" />
