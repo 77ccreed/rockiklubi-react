@@ -1,7 +1,7 @@
 .App-header {
  -webkit-clip-path: polygon(0 0, 100% 0, 100% 64%, 0 84%);
  clip-path: polygon(0 0, 100% 0, 100% 64%, 0 84%);
-  background-color: #000000;
+  background-color: #0C120C;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@ h6 {
 }
 
 .Header-text2 {
-  color: #ED1C25;   
+  color: #C20114;
 }
 
 @keyframes yourAnimation {

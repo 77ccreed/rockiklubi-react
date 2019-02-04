@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 
-const komponendiSisu =[
+const komponendiSisu = [
   {
     pealkiri: "Pa",
     tekst:<React.Fragment>
@@ -65,26 +65,23 @@ const komponendiSisu =[
   },
 ]
 
-class TehnikaItem extends Component {
-  render() {
-    return (
-     <Content komponendiSisu={komponendiSisu} />
-    );
-  }
-}
+const TehnikaItem = (props) => {
+  return (
+    <Content komponendiSisu={komponendiSisu} />
+  );
+};
+
 
 class Content extends React.Component {
-
   render() {
     const { komponendiSisu} = this.props; // ES6 destructuring
 
     return (       
         komponendiSisu.map((sisu) => (
-          <Fade bottom>
-          <ActivityItem sisu={sisu} className="m-2 p-2" />
+          <Fade bottom key={sisu.pealkiri}>
+          <ActivityItem sisu={sisu} className="m-2 p-2" ke />
           </Fade>
         ))
-
     )
   }
 }

@@ -7,8 +7,6 @@ import "./../../Css/Carousel-bg.css";
 import PropTypes from 'prop-types';
 
 const items = [
-
-
   {
     src: require('./../../Images/PlakatTulev/09.11.2018.jpg') ,
     altText: 'Slide 1',
