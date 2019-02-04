@@ -5,7 +5,6 @@ import { BrowserRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import PageProgress from 'react-page-progress';
 import "./../../Css/App.css";
-import HeaderEn from './../Component/ComponentEn/HeaderEn';
 import TulemasEn from './../Component/ComponentEn/TulemasEn';
 import TehnikanimekiriEn from './../Component/ComponentEn/TehnikanimekiriEn';
 import VarasemEn from './../Component/ComponentEn/VarasemEn';
@@ -23,7 +22,6 @@ class En extends Component {
             <meta name="description" content="Todos on steroid!" />
           </Helmet>
           <PageProgress color={'#FCBF49'} />
-          <HeaderEn />
           <main >
             <TulemasEn />
             <TehnikanimekiriEn className="mt-3" />

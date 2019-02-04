@@ -5,7 +5,6 @@ import { BrowserRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import PageProgress from 'react-page-progress';
 import "./../../Css/App.css";
-import HeaderDe from './../Component/ComponentDe/HeaderDe';
 import TehnikanimekiriDe from './../Component/ComponentDe/TehnikanimekiriDe';
 import TulemasDe from './../Component/ComponentDe/TulemasDe';
 import VarasemDe from './../Component/ComponentDe/VarasemDe';
@@ -23,7 +22,6 @@ class De extends Component {
             <meta name="description" content="Todos on steroid!" />
           </Helmet>
           <PageProgress color={'#FCBF49'} />
-          <HeaderDe />
           <main >
             <TulemasDe />
             <TehnikanimekiriDe className="mt-3" />

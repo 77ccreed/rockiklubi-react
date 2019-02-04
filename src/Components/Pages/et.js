@@ -5,7 +5,6 @@ import { Helmet } from 'react-helmet';
 import { BrowserRouter } from 'react-router-dom';
 import PageProgress from 'react-page-progress';
 import "./../../Css/App.css";
-import Header from './../Component/Header';
 import Tehnikanimekiri from './../Component/Tehnikanimekiri';
 import Tulemas from './../Component/Tulemas';
 import Varasem from './../Component/Varasem';
@@ -22,7 +21,6 @@ class Et extends Component {
             <meta name="description" content="Rock-, metal- ja punkkontsertide korraldamine. Tehnika ja stuudio rent. Teeme koostööd teiste klubide ja MTÜ-dega." />
           </Helmet>
           <PageProgress color={'#FCBF49'} />
-          <Header />
           <main >
             <Tulemas />
             <Tehnikanimekiri className="mt-3" />

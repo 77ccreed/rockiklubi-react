@@ -1,5 +1,5 @@
 .Tehnikanimekiri {
- background-color: #0C120C;
+ background-color: #124E78;
  min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,14 +7,14 @@
 }
 
 .btn-own {
-  background-color: #6D7275;
-  color:#0C120C;
+  background-color: #F0F0C9;
+  color:#6E0E0A;
   border: 3px solid transparent;
   min-width: 200px;
 }
 
 .suurem-pealkiri-hele {
-  color: #ECEBF3;
+  color: #F0F0C9;
       box-sizing: border-box;
       font-size: 2em;
       font-weight: 600;
@@ -27,7 +27,7 @@
 }
 
 .väiksem-pealkiri-hele {
-   color:#ECEBF3;
+   color:#F0F0C9;
       box-sizing: border-box;
       font-size: 1.2em;
       font-weight: 200;
@@ -38,7 +38,7 @@
 }
 
 .tekst-hele {
-  color: #ECEBF3;
+  color: #F0F0C9;
      box-sizing: border-box;
      margin-bottom: 1em;
      margin-top: 1em;
@@ -47,6 +47,6 @@
 }
 
 .card{
-   background-color: #ECEBF3;
+   background-color: #FFC857;
 }
 

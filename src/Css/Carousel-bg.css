@@ -1,6 +1,6 @@
 .carousel-bg{
     text-align: center;
-    background-color: #C20114;
+    background-color: #F0F0C9;
       min-height: 100vh;   
         display: flex;
         flex-direction: column;
@@ -8,7 +8,7 @@
 }
 
 .suurem-pealkiri {
-    color: #ECEBF3;
+    color: #124E78;
       box-sizing: border-box;
       font-size: 2em;
       font-weight: 600;
@@ -16,7 +16,7 @@
 }
 
 .väiksem-pealkiri {
-   color: #ECEBF3;
+   color: #124E78;
      box-sizing: border-box;
      font-size: 1.2em;
      font-weight: 200;
@@ -24,7 +24,7 @@
 }
 
 .tekst {
-   color: #ECEBF3;
+   color: #124E78;
      box-sizing: border-box;
      margin-bottom: 1em;
      margin-top: 1em;

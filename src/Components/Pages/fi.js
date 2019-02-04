@@ -5,7 +5,6 @@ import { BrowserRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import PageProgress from 'react-page-progress';
 import "./../../Css/App.css";
-import HeaderFi from '../Component/ComponentFi/HeaderFi';
 import TehnikanimekiriFi from './../Component/ComponentFi/TehnikanimekiriFi';
 import TulemasFi from './../Component/ComponentFi/TulemasFi';
 import VarasemFi from './../Component/ComponentFi/VarasemFi';
@@ -23,7 +22,6 @@ class Fi extends Component {
             <meta name="description" content="Todos on steroid!" />
           </Helmet>
           <PageProgress color={'#FCBF49'} />
-          <HeaderFi />
           <main >
             <TulemasFi />
             <TehnikanimekiriFi className="mt-3" />
