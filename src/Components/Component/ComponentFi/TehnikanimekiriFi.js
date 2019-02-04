@@ -2,13 +2,7 @@ import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 import "./../../../Css/App.css";
 import "./../../../Css/Tehnikanimekiri.css";
-import Pa from './../Pa';
-import FohMixer from './../FohMixer';
-import Monitor from './../Monitor';
-import Microphones from './../Microphones';
-import Backline from './../Backline';
-import Drumms from './../Drumms';
-import Salvestus from './../Salvestus';
+import TehnikaItem from './../TehnikaItem';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal/Fade';
 
@@ -22,27 +16,7 @@ return (
           <Fade bottom>
             <h3 className="m-2 p-2 pt-3 suurem-pealkiri-hele">Tehnika</h3>
           </Fade>
-          <Fade bottom>
-            <Pa className="m-2 p-2 " />
-          </Fade>
-          <Fade bottom>
-            <FohMixer className="m-2 p-2" />
-          </Fade>
-          <Fade bottom>
-            <Monitor className="m-2 p-2" />
-          </Fade>
-          <Fade bottom>
-            <Microphones className="m-2 p-2" />
-          </Fade>
-          <Fade bottom>
-            <Backline className="m-2 p-2" />
-          </Fade>
-          <Fade bottom>
-            <Drumms className="m-2 p-2" />
-          </Fade>
-          <Fade bottom>
-            <Salvestus className="m-2 p-2" />
-          </Fade>
+         <TehnikaItem />
         </div>
 
         <div className="col-lg-6 offset-lg-1 text-left text align-self-center mt-5">
