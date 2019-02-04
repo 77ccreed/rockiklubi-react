@@ -456,7 +456,7 @@ self.__precacheManifest = [
     "url": "/rockiklubi-react/static/css/1.9ea8e569.chunk.css"
   },
   {
-    "revision": "714d7a021f246a0f5f60607a9d52c963",
+    "revision": "046f37d6b88bbd50a6e0f9f872628b7f",
     "url": "/rockiklubi-react/index.html"
   }
 ];
