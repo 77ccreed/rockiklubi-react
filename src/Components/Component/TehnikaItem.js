@@ -1,5 +1,6 @@
 import React from 'react';
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
+import PropTypes from 'prop-types'
 import Fade from 'react-reveal/Fade';
 
 const komponendiSisu = [
@@ -115,3 +116,16 @@ class ActivityItem extends React.Component {
 }
 
 export default TehnikaItem;
+
+Collapse.propTypes = {
+  isOpen: PropTypes.bool,
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node
+  ]),
+  tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
+  className: PropTypes.node,
+  navbar: PropTypes.bool,
+  cssModule: PropTypes.object,
+  innerRef: PropTypes.object,
+};
