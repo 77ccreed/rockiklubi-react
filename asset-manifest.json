@@ -1,10 +1,10 @@
 {
-  "main.css": "/rockiklubi-react/static/css/main.6dd5d367.chunk.css",
-  "main.js": "/rockiklubi-react/static/js/main.d4d4fe92.chunk.js",
-  "main.js.map": "/rockiklubi-react/static/js/main.d4d4fe92.chunk.js.map",
+  "main.css": "/rockiklubi-react/static/css/main.449bbd13.chunk.css",
+  "main.js": "/rockiklubi-react/static/js/main.9be863fa.chunk.js",
+  "main.js.map": "/rockiklubi-react/static/js/main.9be863fa.chunk.js.map",
   "static/css/1.9ea8e569.chunk.css": "/rockiklubi-react/static/css/1.9ea8e569.chunk.css",
-  "static/js/1.8424c4ea.chunk.js": "/rockiklubi-react/static/js/1.8424c4ea.chunk.js",
-  "static/js/1.8424c4ea.chunk.js.map": "/rockiklubi-react/static/js/1.8424c4ea.chunk.js.map",
+  "static/js/1.bb15b128.chunk.js": "/rockiklubi-react/static/js/1.bb15b128.chunk.js",
+  "static/js/1.bb15b128.chunk.js.map": "/rockiklubi-react/static/js/1.bb15b128.chunk.js.map",
   "runtime~main.js": "/rockiklubi-react/static/js/runtime~main.1d89de25.js",
   "runtime~main.js.map": "/rockiklubi-react/static/js/runtime~main.1d89de25.js.map",
   "static/media/18_03_2016.jpg": "/rockiklubi-react/static/media/18_03_2016.a9a38e83.jpg",
@@ -116,9 +116,9 @@
   "static/media/07_15_2018.jpg": "/rockiklubi-react/static/media/07_15_2018.08906012.jpg",
   "static/media/12_01_2019.jpg": "/rockiklubi-react/static/media/12_01_2019.13a3ce65.jpg",
   "static/media/01_02_2019.jpg": "/rockiklubi-react/static/media/01_02_2019.388e7a25.jpg",
+  "static/css/main.449bbd13.chunk.css.map": "/rockiklubi-react/static/css/main.449bbd13.chunk.css.map",
   "static/css/1.9ea8e569.chunk.css.map": "/rockiklubi-react/static/css/1.9ea8e569.chunk.css.map",
-  "static/css/main.6dd5d367.chunk.css.map": "/rockiklubi-react/static/css/main.6dd5d367.chunk.css.map",
   "index.html": "/rockiklubi-react/index.html",
-  "precache-manifest.cce66fda039ccc7664091c31fe79a066.js": "/rockiklubi-react/precache-manifest.cce66fda039ccc7664091c31fe79a066.js",
+  "precache-manifest.0c1f9a31b977e1e4833ad2964c2264f7.js": "/rockiklubi-react/precache-manifest.0c1f9a31b977e1e4833ad2964c2264f7.js",
   "service-worker.js": "/rockiklubi-react/service-worker.js"
 }
