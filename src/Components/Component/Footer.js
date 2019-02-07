@@ -15,9 +15,9 @@ return (
 
     <div className="row">
 
-      <address className="col-md-10  mx-auto my-md-4 my-0 mt-4 mb-1 d-flex flex-wrap align-content-center icons">
+        <address className="col-md-10  mx-auto my-md-4 my-0 mt-4 mb-1 d-flex flex-wrap align-content-center icons">
 
-        <p className="mr-5 ml-2">
+          <p className="mr-5 ml-2">
             <FontAwesomeIcon icon={faHome} /> Valga, Aia 19, 68203 </p>
 
 
